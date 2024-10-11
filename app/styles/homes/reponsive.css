@@ -1,0 +1,31 @@
+@media only screen and (max-width: 425px) {
+  .article-information .group-news {
+    height: 19%;
+    margin-top: 10px;
+  }
+  .article-information .group-news .style-news-sport {
+    flex-direction: column;
+    align-items: center;
+  }
+  .article-information .group-news .style-news-sport a {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .article-information .group-news .style-news-sport a img {
+    width: 100%;
+  }
+  .article-information :nth-child(3) {
+    margin-top: 30px;
+  }
+  .article-information .banner-hanoi {
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .article-information .group-news .style-news-sport a {
+    width: 150px;
+  }
+  .article-information .group-news .style-news-sport a img {
+    width: 150px;
+  }
+}/*# sourceMappingURL=reponsive.css.map */

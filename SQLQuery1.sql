@@ -498,6 +498,19 @@ N'Chia sẻ với Tạp chí Kinh tế Việt Nam/VnEconomy, lãnh đạo một 
 7
 );
 
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Trung Quốc bơm 28 tỷ USD cho các địa phương làm dự án',
+'Trung-Quoc-bom-28-ty-USD-cho-cac-dia-phuong-lam-du-an',
+N'Đây là một phần trong nỗ lực của Bắc Kinh nhằm đạt mục tiêu tăng trưởng kinh tế, nhưng bị giới phân tích đánh giá là “không thấm vào đâu”...',
+'By vneconomy.vn',
+'7/10/2024',
+'t6mevr4iojislcqa46n23amcgu.png',
+N'Chính phủ Trung Quốc dành 200 tỷ nhân dân tệ, tương đương 28 tỷ USD, cho các dự án đầu tư của chính quyền các địa phương trong năm nay. Đây là một phần trong nỗ lực của Bắc Kinh nhằm đạt mục tiêu tăng trưởng kinh tế, nhưng bị giới phân tích đánh giá là “không thấm vào đâu”.',
+'',
+7
+);
+
 insert into DetailsContent (Detail_Id, Detail_Content) values
 (22, N'Kiểm toán độc lập đóng vai trò quan trọng trong việc đảm bảo tính đúng đắn, trung thực của báo cáo tài chính do kế toán đơn vị được kiểm toán lập ra và đưa ra ý kiến kiểm toán về tính trung thực, hợp lý của báo cáo tài chính. Từ đó, báo cáo tài chính đã kiểm toán cung cấp thông tin chính xác về tình hình tài chính của doanh nghiệp cho các đối tượng sử dụng.'),
 (22, N'Tuy nhiên, lãnh đạo công ty này thẳng thắn nhìn nhận kiểm toán viên gặp không ít khó khăn khi kiểm tra số liệu trong báo cáo tài chính doanh nghiệp tự lập, đặc biệt là báo cáo tài chính đã bị doanh nghiệp “xào nấu”, bởi kiểm toán viên chỉ kiểm toán được trên tài liệu được cung cấp, chứ không kiểm chứng được tài liệu đó là thật hay giả.'),
@@ -700,12 +713,154 @@ N'Jill Schildhouse bay 33 giờ từ Mỹ đến TP HCM du lịch nhưng bị t�
 10
 );
 
+update Information set  Image = 'cg2a2289-1728183880-5362-1728184014.png' where id =32;
+
 insert into DetailsContent (Detail_Id, Detail_Content) values
 (32, N'''Tôi thực sự bối rối", Jill kể trên tờ Insider, nói thêm đã đến 46 quốc gia và chưa bao giờ gặp vấn đề tương tự.'),
 (32, N'Sau khi chạy quanh sân bay tìm sự hỗ trợ, Jill được hướng dẫn có hai lựa chọn: quay về Nhật Bản hoặc trả tiền để có visa khẩn cấp, mà theo nhân viên sân bay là "rất đắt".'),
 (32, N'Cô thở phào nhẹ nhõm khi biết visa khẩn cấp có giá 130 USD (khoảng 3,2 triệu đồng) - ít hơn cô tưởng tượng - nhưng lại lo lắng khi nhân viên chỉ chấp nhận thanh toán bằng tiền mặt. May mắn, Jill tìm thấy vài tờ 20 USD dự phòng trong túi, đủ để cô trả và nhận visa mới sau vài giờ chờ đợi căng thẳng.'),
 (32, N'Jill rút ra hai bài học quý giá từ trải nghiệm này. Một là mọi thông tin trên visa và hộ chiếu phải khớp hoàn toàn, kể cả tên đệm, dù trong tờ khai điện tử không yêu cầu cụ thể. Hai là tầm quan trọng của việc luôn mang theo tiền mặt dự phòng khi đi du lịch quốc tế. "Tôi may mắn vì lỗi này chỉ tốn một chút tiền và vài giờ, chứ không làm hỏng cả chuyến đi", du khách Mỹ nói.')
 
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(34, N'Khoản ngân sách trên được Ủy ban Phát triển và cải cách Quốc gia Trung Quốc (NDRC) công bố tại một cuộc họp báo vào hôm thứ Ba tuần này. Tuy nhiên, các nhà đầu tư lộ rõ sự thất vọng vì trước đó họ mong đợi một gói kích cầu lớn hơn bằng chính sách tài khóa. Thị trường chứng khoán Trung Quốc vì thế đã giảm điểm chóng mặt trong phiên ngày thứ Tư, với mức giảm 7,1% của chỉ số CSI 300.'),
+(34, N'Hồi tháng 3, Trung Quốc công bố mục tiêu tăng trưởng kinh tế cả năm 5%, nhưng hàng loạt dữ liệu thống kê trong mùa hè yếu đến mức các nhà kinh tế lo ngại mục tiêu này có thể vượt khỏi tầm tay. Nền kinh tế lớn thứ hai thế giới đang trong tình trạng ảm đạm với sức ép từ cuộc khủng hoảng bất động sản kéo dài, tiêu dùng yếu, tỷ lệ thanh niên thất nghiệp cao, và nhiều vấn đề khác.'),
+(34, N'Ông Zheng cho biết để hỗ trợ các chính quyền địa phương đang chật vật xoay sở với mức nợ cao, Bắc Kinh sẽ cung cấp 100 tỷ nhân dân tệ, tương đương 14 tỷ USD, từ ngân sách trung ương và thêm 100 tỷ nhân dân tệ nữa để các địa phương có vốn rót vào các dự án đầu tư.'),
+(34, N'Cuối tháng 9, Trung Quốc công bố một gói kích cầu lớn gồm các biện pháp chính sách tiền tệ như hạ lãi suất, hạ tỷ lệ dự trữ bắt buộc và bơm tiền vào hệ thống tài chính. Tuy nhiên, giới đầu tư và chuyên gia phân tích vẫn kỳ vọng Chính phủ nước này sẽ tung thêm một gói kích cầu bằng chính sách tài khóa.'),
+(34, N'Trong một động thái nhằm vực dậy tâm trạng nhà đầu tư, Văn phòng Thông tin Hội đồng Nhà nước Trung Quốc ngày 9/10 thông báo rằng tại một cuộc họp báo bắt đầu lúc 10h sáng ngày thứ Bảy tuần này theo giờ địa phương, Bộ trưởng Bộ Tài chính Trung Quốc Lan Fo’an sẽ công bố các biện pháp chính sách tài khóa để hỗ trợ tăng trưởng và trả lời câu hỏi của báo giới.'),
+(34, N'Ông Jia Kang, người trước đây từng đứng đầu của một tổ chức nghiên cứu thuộc Bộ Tài chính Trung Quốc, mới đây nói với tờ báo The Paper rằng Bắc Kinh nên phát hành tới 10 nghìn tỷ nhân dân tệ (1,4 nghìn tỷ USD) trái phiếu chính phủ dài hạn để đầu tư vào cơ sở hạ tầng và công trình công cộng. Ông cho biết con số này “không phải là vô lý” vì trước đây Bắc Kinh đã từng tung ra các biện pháp kích thích tương tự.')
+
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'ASEAN - Hàn Quốc thiết lập quan hệ Đối tác Chiến lược Toàn diện',
+'ASEAN-Han-Quoc-thiet-lap-quan-he-Doi-tac-Chien-luoc-Toan-dien',
+N'ASEAN và Hàn Quốc nhất trí thiết lập quan hệ Đối tác Chiến lược Toàn diện tại Hội nghị Cấp cao ASEAN - Hàn Quốc lần thứ 25 ở Lào.',
+'By vnexpress.net',
+'7/10/2024',
+'4f66e2a7318188dfd190-2168-1728551350.png',
+'Tuyên bố chung thiết lập quan hệ Đối tác Chiến lược Toàn diện ASEAN - Hàn Quốc được thông qua sáng 10/10 tại Vientiane. Lãnh đạo các nước nhấn mạnh việc thiết lập quan hệ Đối tác Chiến lược Toàn diện thể hiện mức độ gắn kết cao và chặt chẽ, cũng như kết quả tích cực của hợp tác sâu rộng giữa ASEAN và Hàn Quốc.',
+'',
+5
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(35, N'Các lãnh đạo ASEAN và Hàn Quốc khẳng định tiếp tục phối hợp chặt chẽ triển khai hiệu quả Sáng kiến Đoàn kết ASEAN - Hàn Quốc (KASI) nhằm làm sâu sắc hơn nữa hợp tác hai bên.'),
+(35, N'Ngoài hợp tác ứng phó các thách thức an ninh phi truyền thống, đẩy mạnh giao thương, kết nối doanh nghiệp, giao lưu nhân dân, văn hóa, giáo dục, du lịch, hai bên nhất trí thúc đẩy hợp tác khoa học công nghệ và đổi mới sáng tạo, chuyển đổi số, môi trường, ứng phó biến đổi khí hậu, quản lý thiên tai...'),
+(35, N'Tổng thống Hàn Quốc Yoon Suk-yeol khẳng định tiếp tục tăng cường đoàn kết và hợp tác với các nước ASEAN, ứng phó và xử lý hiệu quả các thách thức về an ninh, kinh tế, biến đổi khí hậu.'),
+(35, N'Hàn Quốc cũng sẽ tăng đầu tư nguồn lực hợp tác với ASEAN về thành phố thông minh, chuyển đổi số, nghiên cứu chung, đào tạo các chuyên gia về công nghệ và trí tuệ nhân tạo.'),
+(35, N'Thủ tướng đề nghị ASEAN - Hàn Quốc đóng góp trách nhiệm hơn cho hòa bình, an ninh, ổn định và thịnh vượng ở khu vực. Việt Nam hoan nghênh Hàn Quốc tiếp tục tích cực ủng hộ lập trường chung của ASEAN về Biển Đông cũng như nỗ lực xây dựng Biển Đông thành vùng biển hòa bình, ổn định, hợp tác và phát triển bền vững.'),
+(35, N'ASEAN sẵn sàng phối hợp, thúc đẩy các bên liên quan tăng cường đối thoại, hướng đến hoà bình, ổn định lâu dài trên bán đảo Triều Tiên phi vũ khí hạt nhân.'),
+(35, N'ASEAN - Hàn Quốc cũng cần thúc đẩy mạnh mẽ hợp tác kinh tế, trọng tâm là kết nối các nền kinh tế, hợp tác văn hóa, du lịch và giáo dục, đào tạo. Thủ tướng đề nghị hai bên thúc đẩy ký kết các văn kiện chung, tạo cơ chế hợp tác thông thoáng, thuận lợi, mở cửa thị trường lớn hơn cho nhau, đẩy mạnh giao lưu, hợp tác văn hóa, du lịch, và giáo dục đào tạo'),
+(35, N'Theo Thủ tướng Phạm Minh Chính, ASEAN - Hàn Quốc cần hành động quyết liệt hơn để thúc đẩy tăng trưởng bao trùm, toàn diện và phát triển bền vững, nhất là đối với các động lực tăng trưởng mới.')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Bố không thừa nhận, mẹ thì đi lấy chồng, Cháng Thị Hương quyết thoát lời nguyền',
+'Bo-khong-thua-nhan-me-thi-di-lay-chong-Chang-Thi-Huong-quyet-thoat-loi-nguyen',
+N'Cháng Thị Hương là ứng viên học bổng Tiếp sức đến trường của báo Tuổi Trẻ. Cô đã đi làm thuê từ hè năm cô học lớp 8. Nay Hương đỗ khoa ngoại ngữ Trường đại học Hùng Vương (Phú Thọ) và muốn thoát khỏi lời nguyền nghèo đói.',
+'By tuoitre.vn',
+'7/10/2024',
+'base64-17285223979571493239719.png',
+N'Cháng Thị Hương - cô tân sinh viên khoa ngoại ngữ Trường đại học Hùng Vương (Phú Thọ) - tranh thủ vài ngày nghỉ để lên nương nhổ sắn giúp cậu và bà ngoại. Quê cô là một thung lũng bốn bề núi cao ở xã Thuận Hòa, huyện Vị Xuyên (Hà Giang).',
+'',
+8
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(36, N'Hương có bố, nhưng lại là đứa trẻ không cha. Bố cô là người cùng làng, nhưng vì gia đình bố không nhận, mẹ cô chấp nhận nuôi cô một mình. Cô đi chăn trâu, làm đồng vẫn gặp ông nhưng chẳng dám nhận.'),
+(36, N'Người Lũng Khỏe vẫn kể lại, bố mẹ cô từng có một mối tình thời trai trẻ đẹp như trong mơ. Hai người đi học cùng nhau, đi rừng cùng nhau rồi hẹn ước với nhau…'),
+(36, N'Thế nhưng nhà chàng trai không cho cưới, một phần vì nhà mẹ cô nghèo, phần khác trong nhà họ không muốn có con dâu thấp bé, gầy gò. Ở Lũng Khỏe này, người ta quan niệm muốn thoát khỏi cái nghèo thì người phụ nữ phải khỏe, phải đi rừng giỏi, phải vác được nhiều củ sắn, lấy được vác củi to…'),
+(36, N'Quan niệm ấy như lời nguyền ở cái lũng bốn phía núi cao, sáng nắng muộn, chiều tối sớm này. Trong lũng chủ yếu là người Dao, sống dựa vào mảnh nương dốc đến nỗi con trâu đứng không vững. Muốn có nhiều cái ăn, con người phải khỏe, phải làm nương, vác nặng. Người lớn dựng vợ gả chồng cho con cũng phải chọn sức khỏe như người ta chọn trâu về cày ruộng.'),
+(36, N'Hương sinh ra không được mang họ bố từ ấy. Lúc mới được 2 tuổi, mẹ cô quyết tâm đi học để thoát khỏi cái nghèo trong cái lũng bốn mặt là núi cao giữa làng là suối dữ này. Hương sống với bà. Người cậu coi cháu như con, làm đủ mọi việc để nuôi gia đình.'),
+(36, N'Năm Hương học lớp 10, ông Thìm bàn với vợ phải phát cái nương sắn bỏ hoang mấy năm, trồng lại sắn để mấy năm sau có thêm vài đồng cho con, cháu đi học. “Ở đây không chăn nuôi được con gì. Có nương sắn tôi phải trồng từ ngày nó (Cháng Thị Hương - PV) học lớp 10 để bây giờ mới có thêm tiền cho cháu" - ông Thìm nhấc cái cổ áo đã ướt đẫm từ bao giờ.'),
+(36, N'Ngày Hương trở lại trường, cậu Thìm chở xe máy ra tận bến, dúi thêm vào tay cháu mấy trăm nghìn để mua vé xe. “Thiếu cái gì thì cứ gọi điện về nhé!” - ông Thìm dặn dò khi cô bé mắt đã long lanh dưới nắng. Hương biết gọi điện về cậu lại đi nương vài ngày để nhổ sắn, hoặc lại bán thêm con lợn đang lớn trong chuồng.'),
+(36, N'“Nó là đứa đầu tiên ở cái lũng này học giỏi, đỗ đại học. Có phải chịu đói thì gia đình cũng cố gắng cho cháu học hành. Nó không có bố nhưng gia đình lại rất tự hào vì cháu" - ông Cháng Văn Thìm chia sẻ.')
+
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N 'Thiêng liêng, tự hào Hà Nội - Bản hùng ca phố',
+'thieng-lieng-tu-hao-ha-noi-ban-hung-ca-pho',
+N'Tối 10-10, chương trình chính luận nghệ thuật đặc biệt với chủ đề “Hà Nội - Bản hùng ca phố” kỷ niệm 70 năm Ngày Giải phóng Thủ đô (10/10/1954 – 10/10/2024) đã diễn ra đầy thiêng liêng, tự hào và lãng mạn tại Di sản văn hóa thế giới Hoàng thành Thăng Long.',
+'By hanoimoi.vn',
+'7/10/2024',
+'chuong-trinh-dien-ra-tai-hoang-thanh-thang-long.png',
+N'Đến dự chương trình, về phía Trung ương có Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Trưởng ban Tuyên giáo Trung ương Nguyễn Trọng Nghĩa; các đồng chí Ủy viên Trung ương Đảng: Phó Chủ tịch nước Võ Thị Ánh Xuân, Phó Chủ tịch Quốc hội Nguyễn Thị Thanh; các đồng chí Ủy viên Trung ương Đảng, Ủy viên dự khuyết Trung ương Đảng; lãnh đạo các ban, bộ, ngành, đoàn thể Trung ương.',
+'',
+9
+);
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Tà Xùa vào mùa trekking và săn mây muộn',
+'ta-xua-vao-mua-trekking-va-san-may-muon',
+N'Giữa tháng 10, các tour săn mây và trekking đỉnh Tà Xùa lác đác có khách, trong khi mọi năm hoạt động du lịch ở đây sôi động từ tháng 9.',
+'By vnexpress.vn',
+'7/10/2024',
+'Ta-Xua-9844-1728558869.png',
+N'Tà Xùa, một trong những đỉnh núi cao nhất Việt Nam (2.800 m), thuộc huyện Bắc Yên, Sơn La, giáp với huyện Trạm Tấu, Yên Bái và cách Hà Nội khoảng 240 km. Tà Xùa có khí hậu mát mẻ quanh năm, nổi tiếng là điểm săn mây đẹp từ tháng 9 đến tháng 4 hằng năm, thu hút đông khách. Năm nay, mùa du lịch Tà Xùa khởi động muộn vì ảnh hưởng bởi bão lũ và sạt lở. Đầu tháng 10, một số homestay mới bắt đầu đón khách, các tour trekking chưa nhiều người đăng ký.',
+'',
+10
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(39, N'Trên diễn đàn du lịch Tà Xùa có gần 675.000 thành viên, chủ các homestay, nhà nghỉ tại đây cho hay vẫn còn nhiều phòng trống dịp cuối tuần trong tháng 10, bao gồm cả phòng riêng 2-4 người và phòng cộng đồng cho 10 đến 30 người.'),
+(39, N'Đại diện của một trong những khu homestay rộng và tầm nhìn đẹp có thể săn mây ngay trong khuôn viên cho biết vẫn còn phòng vào các cuối tuần tháng 10 và 11. Kim Oanh, một thành viên của diễn đàn, quyết định đi Tà Xùa cuối tuần này, nói đã đặt được phòng dễ dàng chỉ trước chuyến đi vài ngày.'),
+(39, N'Điều kiện thời tiết và đi lại là một trong những băn khoăn của du khách. Oanh cho hay dù đã quyết định lên đường, cô vẫn thận trọng tham khảo các thành viên, người địa phương và được biết hiện không có khó khăn trong đi lại.'),
+(39, N'Ông Khang A Chua, Phó chủ tịch huyện Trạm Tấu, Yên Bái, cho hay mùa du lịch Tà Xùa thường bắt đầu từ khoảng tháng 9. Năm nay, do ảnh hưởng bởi thời tiết nên khách lên muộn hơn.'),
+(39, N'Ngoài Tà Xùa, huyện Trạm Tấu còn là điểm xuất phát của tuyến trekking đỉnh Tà Chì Nhù. Sau đợt mưa lớn, nước suối dâng vào tuần cuối tháng 9, Tà Chì Nhù cũng đã hoạt động bình thường trở lại.'),
+(39, N'Địa phương cho biết vẫn sẽ tiếp tục theo dõi tình hình thời tiết và giao thông để có các cảnh báo kịp thời. Đại diện huyện Trạm Tấu cho hay nếu thời tiết vẫn duy trì như hiện nay, du khách hoàn toàn có thể an tâm đi du lịch.'),
+(39, N'Mùa đẹp nhất tại đây là từ cuối tháng 9 đến đầu tháng 4 hằng năm. Nếu trekking, du khách phải đi từ hướng huyện Trạm Tấu, Yên Bái, còn nếu săn mây sẽ đi từ hướng huyện Bắc Yên, Sơn La. Đường đi từ Sơn La, xe ôtô gầm cao có thể lên tới đỉnh. Cách đỉnh khoảng 12 km, có nhiều đường cua, du khách nên di chuyển thận trọng.')
+
+insert into Categories (CategoryName,urlCategory) values (N'tài liệu','tai-lieu')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Học tập và làm theo tư tưởng Hồ Chí Minh đáp ứng yêu cầu nhiệm vụ cách mạng trong tình hình mới',
+'hoc-tap-va-lam-theo-tu-tuong-ho-chi-minh-dap-ung-yeu-cau-nhiem-vu-cach-mang-trong-tinh-hinh-moi',
+N'Chủ tịch Hồ Chí Minh là một trong những nhà tư tưởng, một lãnh tụ cách mạng. Tư tưởng đạo đức Hồ Chí Minh rất sâu sắc, phong phú cả về lý luận và thực tiễn, đã trở thành một bộ phận vô giá của văn hóa dân tộc và nhân loại, một sức mạnh to lớn làm nên mọi thắng lợi của cách mạng Việt Nam.',
+'By qdnd.vn',
+'7/10/2024',
+'01 5.png',
+N'Chủ tịch Hồ Chí Minh đã khẳng định, đạo đức là nguồn nuôi dưỡng và phát triển con người, như gốc của cây, ngọn nguồn của sông suối. Người nói: "Cũng như sông thì có nguồn mới có nước, không có nguồn thì sông cạn. Cây phải có gốc không có gốc thì cây héo. Người cách mạng phải có đạo đức không có đạo đức thì dù tài giỏi mấy cũng không lãnh đạo được nhân dân”(1). ',
+'',
+11
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(40, N'Nhiệm vụ bảo vệ Tổ quốc trong tình hình mới hiện nay theo tư tưởng Hồ Chí Minh việc đầu tiên là chỉnh đốn, đổi mới tư duy lãnh đạo của Đảng, bám sát cơ sở, thực tiễn yêu cầu cách mạng đặt ra, đây là tư tưởng nhất quán xuyên suốt trong quá trình xây dựng đội ngũ cán bộ của Đảng. Việc chỉnh đốn, đổi mới của Đảng là khôi phục đạo đức cách mạng, giáo dục, bồi dưỡng phẩm chất, năng lực cho cán bộ, đội ngũ đảng viên, khôi phục uy tín chính trị của Đảng đối với nhân dân, vào thời điểm cách mạng gặp khó khăn cần phải bình tĩnh, sáng suốt để Đảng, đảng viên không rơi vào bi quan, dao động, rụt rè, lùi bước; khi cách mạng trên đà thắng lợi phải chỉnh đốn, đổi mới để ngăn ngừa bệnh kiêu ngạo, thoả mãn, chủ quan; khi cách mạng chuyển giai đoạn, cũng phải chỉnh đốn, đổi mới để Đảng, đội ngũ cán bộ đảng viên có đủ trình độ năng lực, khả năng tư duy sức lãnh đạo trước sự phát triển của thực tiễn cách mạng Việt nam.'),
+(40, N'Trong tình hình hiện nay, mỗi cấp ủy, cán bộ cần nhìn nhận, suy ngẫm hành động trên các giá trị theo tư tưởng, đạo đức, phong cách Hồ Chí Minh như sau:'),
+(40, N'Một là: Trung với nước, hiếu với dân, suốt đời phấn đấu hy sinh vì độc lập tự do của Tổ quốc, vì chủ nghĩa xã hội, nhiệm vụ nào cũng hoàn thành, khó khăn nào cũng vượt qua, kẻ thù nào cũng đánh thắng. “Nhân, Trí, Dũng, Trung, Hiếu, Tín, Nghĩa” là thang bậc đầu tiên của đạo đức con người. Chủ tịch Hồ Chí Minh rất coi trọng phẩm chất đạo đức của cán bộ, chuẩn mực giá trị đạo đức cách mạng. Trong bối cảnh hiện nay, trước những tác động nhiều chiều của nền kinh tế thị trường, sự chống phá của các thế lực thù địch, hơn lúc nào hết, đòi hỏi mỗi cán bộ, chiến sĩ nêu cao tinh thần cách mạng, tích cực đấu tranh ngăn chặn, đẩy lùi tiêu cực, phòng, chống tự diễn biến tự chuyển hóa, đấu tranh làm thất bại mọi âm mưu chống phá của kẻ địch.'),
+(40, N'Hai là: Cần, Kiệm, Liêm, Chính, Chí công vô tư. Đảng cách mệnh, Đảng cầm quyền, cán bộ, đảng viên, nhất là những cán bộ giữ cương vị lãnh đạo càng phải ra sức tu dưỡng, rèn luyện những phẩm chất đạo đức này. Không tự cao, tự đại, tự kiêu, tự ti, tự phụ, tự mãn, không nịnh trên, nạt dưới, lừa lọc, dối trá, giả mạo,... luôn luôn đặt việc công, lợi ích của Nhà nước của tập thể, của nhân dân lên trên, lên trước việc tư, quyền lợi của bản thân. '),
+(40, N'Ba là: Yêu thương con người, luôn tin tưởng ở quần chúng và sống có tình, có nghĩa, có trước có sau. Chủ tịch Hồ Chí Minh căn dặn: Cán bộ, đảng viên học và hiểu Chủ nghĩa Mác-Lênin là để “Sống với nhau có tình, có nghĩa”, “nếu thuộc bao nhiêu sách mà sống không có tình, có nghĩa thì sao gọi là hiểu Chủ nghĩa Mác-Lênin được”. Người cách mạng phải có tình cảm đạo đức cách mạng mới làm được cách mạng, phải biết yêu thương gia đình, yêu thương đồng bào, đồng chí, đồng đội, đồng nghiệp thì mới biết, mới dám chấp nhận mọi hy sinh cho đồng chí, đồng bào, cho cách mạng, cho dân tộc. Đạo đức Hồ Chí Minh không những chỉ có lòng nhân ái bao dung vị tha, độ lượng mà còn có cả đức tin tuyệt đối ở nhân dân, đề cao vai trò, sức mạnh vô địch của nhân dân, kính trọng nhân dân, luôn luôn vì dân, dựa vào dân làm cách mạng, “Dễ trăm lần không dân cũng chịu, Khó vạn lần dân liệu cũng xong”. '),
+(40, N'Bốn là: Có tinh thần quốc tế trong sáng, hướng vào mục tiêu hòa bình, dân chủ, tiến bộ xã hội. Đó là, tinh thần đoàn kết quốc tế vô sản mà Chủ tịch Hồ Chí Minh đã nêu lên bằng mệnh đề "Bốn phương vô sản đều là anh em"; là tinh thần đoàn kết với các dân tộc bị áp bức, với nhân dân lao động các nước. Theo Chủ tịch Hồ Chí Minh, chủ nghĩa quốc tế vô sản gắn liền với chủ nghĩa yêu nước, hơn nữa phải là chủ nghĩa yêu nước chân chính và chủ nghĩa quốc tế vô sản trong sáng, cùng chung vai sát cánh với giai cấp vô sản toàn thể thế giới, cùng toàn thể nhân dân lao động, yêu chuộng hòa bình, đấu tranh vì hòa bình, độc lập dân tộc và chủ nghĩa xã hội.'),
+(40, N'Trong bối cảnh hội nhập, toàn cầu hóa, quốc tế hóa, trước thực trạng đạo đức đội ngũ cán bộ, đảng viên và những vấn đề đặt ra nhằm tiếp tục nâng cao đạo đức cách mạng cho cán bộ, đảng viên để đủ sức hoàn thành nhiệm vụ cách mạng mà Đảng và nhân dân giao phó, thì việc đẩy mạnh nghiên cứu, tuyên truyền, giáo dục tư tưởng Hồ Chí Minh, học tập và làm theo tấm gương đạo đức Hồ Chí Minh là vô cùng cần thiết, là một trong những biện pháp quan trọng hàng đầu để mọi cán bộ, đảng viên và tổ chức Đảng tự giác liên hệ, kiểm điểm, sửa chữa, khắc phục tình trạng suy thoái về đạo đức, lối sống, giữ vững niềm tin của nhân dân đối với Đảng, nâng cao sức chiến đấu và năng lực lãnh đạo của Đảng, xây dựng Đảng trong sạch, vững mạnh, thực hiện thắng lợi hai nhiệm vụ chiến lược xây dựng và bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa của chúng ta. (2)')
+
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Chuyên đề: “Học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh gắn với việc thực hiện nhiệm vụ công tác của Văn phòng Sở”.',
+'chuyen-de-hoc-tap-va-lam-theo-tu-tuong-dao-duc-phong-cach-ho-chi-minh-gan-voi-viec-thuc-hien-nhiem-vu-cong-tac-cua-van-phong-so',
+N'Tư tưởng, đạo đức, phong cách cao đẹp của Chủ tịch Hồ Chí Minh đã trở thành ánh sáng diệu kì chiếu rọi và thức tỉnh từng góc khuất tâm hồn về tấm gương hi sinh cao cả của Bác.',
+'By binhdinh.gov.vn',
+'7/10/2024',
+'8bb2a607285ff901a04e.png',
+'',
+'',
+11
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(41, N'Chủ tịch Hồ Chí Minh đã để lại cho Đảng ta, nhân dân ta di sản vô cùng quý giá. Đó là thời đại Hồ Chí Minh; là tư tưởng, đạo đức, phong cách Hồ Chí Minh. “Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ tịch, người anh hùng dân tộc vĩ đại, và chính Người đã làm rạng rỡ dân tộc ta, nhân dân ta và non sông đất nước ta”. Cuộc đời và sự nghiệp cách mạng vĩ đại của Người mãi là biểu tượng cách mạng, ngọn hải đăng dẫn đường cho sự nghiệp cách mạng của dân tộc, mãi là tấm gương sáng ngời cho lớp lớp các thế hệ người Việt Nam tiếp nối, noi theo. Không ngừng học tập, rèn luyện theo Người đã, đang và luôn là tiêu chí, thước đo, phương châm hành động và biện pháp công tác của các cán bộ, đảng viên, được coi là động lực, cội nguồn sức mạnh để toàn Đảng nỗ lực vượt qua các khó khăn, thách thức, đáp ứng yêu cầu cách mạng trong giai đoạn mới'),
+(41, N'Tư tưởng Hồ Chí Minh là một hệ thống các quan điểm, nhận thức, tư tưởng chỉ đạo rất cơ bản của Chủ tịch Hồ Chí Minh về cách mạng và con đường đi lên của cách mạng Việt Nam trong thời đại ngày nay. Đó là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể của Việt Nam, kế thừa và phát triển các giá trị truyền thống tốt đẹp của dân tộc, tiếp thu tinh hoa văn hoá của nhân loại. Người nhiều lần khẳng định: "Nước Việt Nam là một, Dân tộc Việt Nam là một, sông có thể cạn, núi có thể mòn, song chân lý đó không bao giờ thay đổi". "Thà hi sinh tất cả chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ"; "Không có gì quý hơn độc lập, tự do"; "Dù có phải đốt cháy cả dãy Trường Sơn cũng phải kiên quyết giành cho được độc lập". "Tôi chỉ có một ham muốn, ham muốn tột bậc là làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, đồng bào ai cũng có cơm ăn, áo mặc, ai cũng được học hành, nước ta có vị trí xứng đáng trên trường quốc tế". "Nước độc lập mà Dân không hưởng hạnh phúc, tự do, thì độc lập cũng chẳng có nghĩa lý gì".'),
+(41, N'Vì vậy, độc lập phải gắn liền với chủ nghĩa xã hội; giải phóng dân tộc phải gắn liền với giải phóng giai cấp, giải phóng xã hội, giải phóng con người, tức là phải tiến hành cách mạng xã hội chủ nghĩa. Non sông Việt Nam có trở nên tươi đẹp hay không, Dân tộc Việt Nam có vẻ vang sánh vai với các cường quốc năm châu được hay không, điều quan trọng là phải phát huy được sức mạnh đại đoàn kết của toàn dân tộc, tập hợp được mọi lực lượng, dân tộc, tôn giáo, mọi người dân Việt Nam yêu nước. Theo Người, muốn cứu nước và giải phóng dân tộc, không có con đường nào khác con đường cách mạng vô sản: "Bây giờ học thuyết nhiều, chủ nghĩa nhiều, nhưng chủ nghĩa chân chính nhất, cách mệnh nhất là chủ nghĩa Lênin, chủ nghĩa Mác - Lênin". Người khẳng định: Cách mạng là sự nghiệp của nhân dân, do nhân dân và vì nhân dân dưới sự lãnh đạo đúng đắn của một đảng cách mạng chân chính. Đảng có mạnh thì Dân tộc mới mạnh, vì Đảng là đội tiên phong, là người lãnh đạo của giai cấp công nhân, nhân dân lao động và của toàn dân tộc.'),
+(41, N'Đạo đức Hồ Chí Minh là đạo đức cách mạng, là những phẩm chất cao quý của một người cách mạng. Đó là: Cần, kiệm, liêm, chính, chí công vô tư. Cần: Là cần cù, chăm chỉ, tận tuỵ, hết lòng hết sức vì công việc chung, vì nước, vì dân. Kiệm: Là tiết kiệm, không xa hoa, lãng phí, nhất là đối với của công. Liêm: Là thanh liêm, giữ liêm sỉ, danh dự, trong sạch, trong sáng. Chính: Là chính trực, ngay thẳng, khẳng khái, không quỵ luỵ, cúi luồn, giữ sĩ khí của một người quân tử, chính khách. Chí công vô tư: Là làm việc vì sự nghiệp chung, đặt lợi ích công lên trên hết, trước hết; không tư lợi, vụ lợi, không vì lợi ích riêng. Chủ tịch Hồ Chí Minh kiên quyết đấu tranh chống chủ nghĩa cá nhân, đặc biệt quan tâm đến việc giáo dục, rèn luyện đạo đức cách mạng. Người thường nói: "Cũng như sông thì có nguồn mới có nước, không có nguồn thì sông cạn. Cây phải có gốc, không có gốc thì cây héo. Người cách mạng phải có đạo đức, không có đạo đức thì dù tài giỏi mấy cũng không lãnh đạo được nhân dân".'),
+(41, N'Phong cách Hồ Chí Minh là lối sống, tác phong khiêm tốn, giản dị, cầu thị, gần dân, trọng dân, tin dân, học dân, làm việc gì cũng vì lợi ích của nhân dân; là đầy tớ của dân chứ không phải "làm quan nhân dân", không được lên mặt "làm quan cách mạng". Theo Người, mỗi cán bộ, đảng viên phải tự giác học tập, ra sức tu dưỡng, rèn luyện để không ngừng nâng cao nhận thức, trình độ, trở thành những con người có văn hoá, có liêm sỉ, "tận trung với Đảng, tận hiếu với Dân, nhiệm vụ nào cũng hoàn thành, khó khăn nào cũng vượt qua, kẻ thù nào cũng đánh thắng".')
+
+
+use ONE_CMS;
 select * from Categories;
 select * from Information;
 select * from DetailsContent;
+select * from Information where id = 36;
+select * from DetailsContent where Detail_Id = 36;
