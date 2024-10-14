@@ -1,1 +1,69 @@
-/*# sourceMappingURL=category.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+.box_howver :hover {
+  text-decoration: none;
+  color: #BA1516;
+}
+
+header {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  background-image: url("../../public/images/anh header1.png.png");
+}
+header .weeks {
+  width: 250px;
+  height: 40px;
+  background-color: white;
+  border-radius: 7px;
+}
+header .weeks .date {
+  font-family: "Inter", serif;
+}
+header .logo a {
+  text-decoration: none;
+  color: black;
+}
+header .logo p {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav {
+  background-color: aliceblue;
+  border-bottom: 1px solid #C2EAF2;
+  position: relative;
+}
+nav .sider-bar {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .sider-bar li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  overflow: hidden;
+}
+nav .sider-bar li {
+  list-style: none;
+  overflow: hidden;
+}
+
+.box-body-category {
+  font-family: "Inter", serif;
+}
+.box-body-category h1 {
+  border-bottom-style: double;
+  border-bottom-color: coral;
+  color: rgb(190, 31, 31);
+}/*# sourceMappingURL=category.css.map */

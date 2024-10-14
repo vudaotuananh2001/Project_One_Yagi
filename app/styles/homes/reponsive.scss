@@ -1,7 +1,7 @@
 @media only screen and (max-width: 425px) {
     .article-information {
         .group-news {
-            height: 19%;
+            height: 16%;
             margin-top: 10px;
 
             .style-news-sport {
@@ -37,10 +37,24 @@
                     width: 150px;
 
                     img {
-                        width: 150px;
+                        width: 120px;
                     }
                 }
             }
         }
+    }
+
+    .relate-to-media {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        a {}
+
+        :hover {
+            text-decoration: none;
+        }
+
+        margin-top: 20px;
     }
 }

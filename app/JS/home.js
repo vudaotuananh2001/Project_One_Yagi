@@ -14,7 +14,8 @@ $(document).ready(function () {
             if (Array.isArray(categories)) {
                 categories.forEach(function (category) {
                     if (category.categoryName) {
-                        $('.sider-bar').append('<li class="box_howver"><a href="' + category.urlCategory + '">' + category.categoryName + '</a></li>');
+                        $('.sider-bar').append(
+                            '<li class="box_howver"><a href="../pages/category.html?url=' + encodeURIComponent(category.urlCategory) + '">' + category.categoryName + '</a></li>');
                     }
                 });
             } else {
@@ -260,9 +261,44 @@ $(document).ready(function () {
         success: function (response) {
             var media1 = response.data;
             $('.Yagi').append(
-                '<iframe width="452" height="315" ' +
-                'src="' + media1.urlVideo + '" frameborder="0" allowfullscreen>' +
-                '</iframe>'
+                '<a class="detail" href="./pages/Detail.html?url=' + encodeURIComponent(media1.linkTitle) + '">' +
+                '<iframe width="100%" height="315" src="https://www.youtube.com/embed/' + media1.urlVideo.split('v=')[1] + '">' +
+                '</iframe>' +
+                '<h4>' + media1.title + '</h4>' +
+                '<span>' + media1.content + '</span>' +
+                '</a>'
+            );
+        }
+    });
+
+    $.ajax({
+        url: 'https://localhost:7235/api/Infor/by/9',
+        method: 'GET',
+        dataType: 'json',
+        success: function (response) {
+            var media1 = response.data;
+            $('.hanoisx').append(
+                '<a class="detail" href="./pages/Detail.html?url=' + encodeURIComponent(media1.linkTitle) + '">' +
+                '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + media1.urlVideo.split('v=')[1] + '">' +
+                '</iframe>' +
+                '<span>' + media1.content + '</span>' +
+                '</a>'
+            );
+        }
+    });
+
+    $.ajax({
+        url: 'https://localhost:7235/api/Infor/by/31',
+        method: 'GET',
+        dataType: 'json',
+        success: function (response) {
+            var media1 = response.data;
+            $('.haohungsx').append(
+                '<a class="detail" href="./pages/Detail.html?url=' + encodeURIComponent(media1.linkTitle) + '">' +
+                '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + media1.urlVideo.split('v=')[1] + '">' +
+                '</iframe>' +
+                '<span>' + media1.content + '</span>' +
+                '</a>'
             );
         }
     });

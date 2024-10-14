@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", serif;
 }
 
 .box-body {
@@ -34,5 +35,154 @@
         }
     }
 
-    .ord-r {}
+    .ord-r {
+        .relate-to-infor {
+            width: 100%;
+            background-color: rgb(77, 175, 192);
+            text-align: center;
+            height: 47px;
+            padding-top: 7px;
+            border-radius: 10px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .detail_category {
+            .du-lichs {
+                width: 100%;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+
+                    img {
+                        width: 100%;
+                        height: 200px;
+                    }
+
+                    span {
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                        font-size: 15px;
+                    }
+                }
+
+                :first-child {
+                    margin-top: 10px;
+                }
+            }
+
+            .it {
+                width: 100%;
+
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: black;
+
+                    img {
+                        width: 100%;
+                        height: 200px;
+                    }
+
+                    span {
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                        font-size: 15px;
+                    }
+                }
+
+                :first-child {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    .ord-l {
+        width: 100%;
+        height: auto;
+
+        .title-center {
+            width: 100%;
+            background-color: rgb(77, 175, 192);
+            text-align: center;
+            height: 47px;
+            padding-top: 7px;
+            border-radius: 10px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .the-gioim {
+            width: 100%;
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                img {
+                    width: 100%;
+                    height: 200px;
+                }
+
+                span {
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    font-size: 15px;
+                }
+            }
+
+            :first-child {
+                margin-top: 20px;
+            }
+        }
+
+        .van-hoam {
+            width: 100%;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: black;
+
+                img {
+                    width: 100%;
+                    height: 200px;
+                }
+
+                span {
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    font-size: 15px;
+                }
+            }
+
+            :first-child {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.banners {
+    a {
+        display: inline-block;
+
+        img {
+            width: 100%;
+        }
+    }
 }

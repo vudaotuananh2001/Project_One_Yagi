@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", serif;
 }
 
 .box-body {
@@ -27,4 +28,125 @@
 }
 .box-body .article-detail p {
   font-size: 20px;
+}
+.box-body .ord-r .relate-to-infor {
+  width: 100%;
+  background-color: rgb(77, 175, 192);
+  text-align: center;
+  height: 47px;
+  padding-top: 7px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+.box-body .ord-r .detail_category .du-lichs {
+  width: 100%;
+}
+.box-body .ord-r .detail_category .du-lichs a {
+  text-decoration: none;
+  color: black;
+}
+.box-body .ord-r .detail_category .du-lichs a img {
+  width: 100%;
+  height: 200px;
+}
+.box-body .ord-r .detail_category .du-lichs a span {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 15px;
+}
+.box-body .ord-r .detail_category .du-lichs :first-child {
+  margin-top: 10px;
+}
+.box-body .ord-r .detail_category .it {
+  width: 100%;
+}
+.box-body .ord-r .detail_category .it a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.box-body .ord-r .detail_category .it a img {
+  width: 100%;
+  height: 200px;
+}
+.box-body .ord-r .detail_category .it a span {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 15px;
+}
+.box-body .ord-r .detail_category .it :first-child {
+  margin-top: 10px;
+}
+.box-body .ord-l {
+  width: 100%;
+  height: auto;
+}
+.box-body .ord-l .title-center {
+  width: 100%;
+  background-color: rgb(77, 175, 192);
+  text-align: center;
+  height: 47px;
+  padding-top: 7px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+.box-body .ord-l .the-gioim {
+  width: 100%;
+}
+.box-body .ord-l .the-gioim a {
+  text-decoration: none;
+  color: black;
+}
+.box-body .ord-l .the-gioim a img {
+  width: 100%;
+  height: 200px;
+}
+.box-body .ord-l .the-gioim a span {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 15px;
+}
+.box-body .ord-l .the-gioim :first-child {
+  margin-top: 20px;
+}
+.box-body .ord-l .van-hoam {
+  width: 100%;
+}
+.box-body .ord-l .van-hoam a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.box-body .ord-l .van-hoam a img {
+  width: 100%;
+  height: 200px;
+}
+.box-body .ord-l .van-hoam a span {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 15px;
+}
+.box-body .ord-l .van-hoam :first-child {
+  margin-top: 10px;
+}
+
+.banners a {
+  display: inline-block;
+}
+.banners a img {
+  width: 100%;
 }/*# sourceMappingURL=detail.css.map */

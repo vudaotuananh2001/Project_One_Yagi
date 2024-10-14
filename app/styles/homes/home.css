@@ -255,4 +255,90 @@ nav .sider-bar li {
   width: 100%;
   height: auto;
   background-color: #009ED9;
+  font-family: "Inter", serif;
+}
+.media .title-sport {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-top: 1px solid white;
+  margin-top: 10px;
+}
+.media .title-sport a {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+}
+.media .Yagi a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+.media .relate-to-media .hanoisx {
+  width: 100%;
+  height: auto;
+}
+.media .relate-to-media .hanoisx a {
+  color: white;
+  text-decoration: none;
+}
+.media .relate-to-media .hanoisx a iframe {
+  width: 100%;
+  height: 200px;
+}
+.media .relate-to-media .hanoisx a h4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.media .relate-to-media .hanoisx a span {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.media .relate-to-media .haohungsx {
+  width: 100%;
+  height: auto;
+}
+.media .relate-to-media .haohungsx a {
+  color: white;
+  text-decoration: none;
+}
+.media .relate-to-media .haohungsx a iframe {
+  width: 100%;
+  height: 200px;
+}
+.media .relate-to-media .haohungsx a h4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.media .relate-to-media .haohungsx a span {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+footer {
+  margin-top: 10px;
+}
+footer .infor-company p {
+  margin-bottom: 0;
+}
+footer a {
+  color: black;
+}
+footer a img {
+  width: 100%;
+}
+footer a img p {
+  margin-bottom: 0;
 }/*# sourceMappingURL=home.css.map */
