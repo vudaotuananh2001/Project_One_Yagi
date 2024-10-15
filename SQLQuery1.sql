@@ -857,6 +857,94 @@ insert into DetailsContent (Detail_Id, Detail_Content) values
 (41, N'Đạo đức Hồ Chí Minh là đạo đức cách mạng, là những phẩm chất cao quý của một người cách mạng. Đó là: Cần, kiệm, liêm, chính, chí công vô tư. Cần: Là cần cù, chăm chỉ, tận tuỵ, hết lòng hết sức vì công việc chung, vì nước, vì dân. Kiệm: Là tiết kiệm, không xa hoa, lãng phí, nhất là đối với của công. Liêm: Là thanh liêm, giữ liêm sỉ, danh dự, trong sạch, trong sáng. Chính: Là chính trực, ngay thẳng, khẳng khái, không quỵ luỵ, cúi luồn, giữ sĩ khí của một người quân tử, chính khách. Chí công vô tư: Là làm việc vì sự nghiệp chung, đặt lợi ích công lên trên hết, trước hết; không tư lợi, vụ lợi, không vì lợi ích riêng. Chủ tịch Hồ Chí Minh kiên quyết đấu tranh chống chủ nghĩa cá nhân, đặc biệt quan tâm đến việc giáo dục, rèn luyện đạo đức cách mạng. Người thường nói: "Cũng như sông thì có nguồn mới có nước, không có nguồn thì sông cạn. Cây phải có gốc, không có gốc thì cây héo. Người cách mạng phải có đạo đức, không có đạo đức thì dù tài giỏi mấy cũng không lãnh đạo được nhân dân".'),
 (41, N'Phong cách Hồ Chí Minh là lối sống, tác phong khiêm tốn, giản dị, cầu thị, gần dân, trọng dân, tin dân, học dân, làm việc gì cũng vì lợi ích của nhân dân; là đầy tớ của dân chứ không phải "làm quan nhân dân", không được lên mặt "làm quan cách mạng". Theo Người, mỗi cán bộ, đảng viên phải tự giác học tập, ra sức tu dưỡng, rèn luyện để không ngừng nâng cao nhận thức, trình độ, trở thành những con người có văn hoá, có liêm sỉ, "tận trung với Đảng, tận hiếu với Dân, nhiệm vụ nào cũng hoàn thành, khó khăn nào cũng vượt qua, kẻ thù nào cũng đánh thắng".')
 
+update Information 
+set Description = N'Tổng mức đầu tư đường sắt tốc độ cao Bắc Nam đã được Bộ Giao thông Vận tải xác định sơ bộ 67,34 tỷ USD. Giá vé dự kiến được chia ba mức phù hợp với khả năng chi trả người dân, nhu cầu và mức độ tiện nghi khác nhau. Trong đó, mỗi km vé hạng nhất dự kiến là 0,18 USD (khoang VIP), hạng hai 0,074 USD và hạng ba là 0,044 USD. Như vậy, tính trên chặng Hà Nội - TP HCM, vé hạng nhất khoảng 6,9 triệu; hạng hai là 2,9 triệu và hạng ba là 1,7 triệu đồng.'
+where id= 11;
+
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Cần thủ sống sót sau 32 giờ trôi dạt trên biển',
+'can-thu-song-sot-sau-32-gio-troi-dat-tren-bien',
+N'Trưa 15/10, Bệnh viện Đà Nẵng cho biết bệnh nhân Đặng Huy Hùng, 31 tuổi, đã qua cơn nguy kịch. Anh được chuyển từ Khoa Cấp cứu sang Khoa Hồi sức tích cực chống độc để tiếp tục theo dõi sức khỏe.',
+'By VnExpress',
+'7/10/2024',
+'f95ac26efb8e42d01b9f-4182-1728968408.png',
+N'Anh Hùng rời nhà đi câu cá tại bờ kè đá dưới chân cầu Thuận Phước, quận Hải Châu từ 19h ngày 13/10. Đến khoảng 21h, vợ anh là chị Diệp gọi điện cho chồng nhưng mất liên lạc, ra bờ kè tìm không thấy. "Tôi cứ nghĩ anh ấy đi câu cùng bạn ở nơi mất sóng hoặc điện thoại hết pin nên mất liên lạc", chị Diệp kể.',
+'',
+4
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(42, N'Đến 4h hôm sau vẫn không thấy chồng về, chị Diệp tiếp tục đi tìm thì thấy xe máy anh Hùng bỏ lại trên bờ kè nên báo công an. Trong đêm mưa, lực lượng chức năng, bạn bè trong hội câu cá và Đội thiện nguyện cứu hộ SOS Đà Nẵng đã đi bộ dọc bờ kè đá và dùng xuồng chạy ra khu vực biển cửa sông Hàn tìm kiếm nhưng không có kết quả.'),
+(42, N'Đến 5h ngày 15/10, một người dân đi tập thể dục dưới bờ biển Nguyễn Tất Thành giao với đường Tôn Thất Đạm, quận Thanh Khê, phát hiện anh Hùng trôi dạt. Ban đầu, mọi người nghĩ anh đã chết nên gọi điện cho gia đình đến nhận dạng. Tuy nhiên, thấy ngón tay út của anh nhúc nhích nên người dân đã hô hấp nhân tạo, đốt lửa sưởi ấm và đưa anh đến Bệnh viện Đà Nẵng.'),
+(42, N'"Anh được tìm thấy trong tình trạng mê man, sau đó dần tỉnh lại, hiện đã có thể nói chuyện và kể lại sự việc", chị Diệp cho hay.'),
+(42, N'Theo đó khoảng 21h ngày 13/10, cần câu mắc vào tảng đá dưới bờ kè nên anh Hùng xuống gỡ. Không may, anh trượt chân và bị nước cuốn trôi, rơi vào trạng thái hôn mê. Theo chị Diệp, có thể khi ngã anh Hùng vẫn đeo balo mang theo từ nhà nên đã "sống sót thần kỳ" sau một ngày hai đêm ngâm dưới nước lạnh. Khi được tìm thấy cách vị trí câu cá khoảng 4 km, hai tay anh vẫn ôm chặt balo.'),
+(42, N'Anh Hùng quê Bắc Ninh, hiện sống ở quận Sơn Trà, thường xuyên đi câu cá cùng bạn bè. Những lần trước, anh đi câu vào buổi chiều. Chủ nhật vừa qua, anh lần đầu đi câu ban đêm và gặp nạn.')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Lãnh đạo Triều Tiên họp về kế hoạch quân sự giữa căng thẳng với Hàn Quốc',
+'lanh-dao-trieu-tien-hop-ve-ke-hoach-quan-su-giua-cang-thang-voi-han-quoc',
+N'Ông Kim Jong-un họp với các quan chức an ninh quốc gia hàng đầu Triều Tiên, đưa ra kế hoạch "hành động quân sự tức thời" giữa lúc căng thẳng với Hàn Quốc gia tăng.',
+'By VnExpress',
+'7/10/2024',
+'PYH2024101500450004200-P4-7308-1728949139.png',
+N'Cuộc họp giữa lãnh đạo Triều Tiên Kim Jong-un cùng các quan chức an ninh cấp cao, như Tổng tham mưu trưởng quân đội Ri Yong-gil, lãnh đạo Tổng cục Trinh sát Ri Chang-ho, diễn ra ngày 14/10 ở Bình Nhưỡng, hãng thông tấn trung ương Triều Tiên KCNA đưa tin hôm nay.',
+'',
+3
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(43, N'"Ông Kim Jong-un đưa ra kế hoạch hành động quân sự tức thời và đề xuất các nhiệm vụ quan trọng cần thực hiện trong chiến dịch răn đe chiến tranh, thực hiện quyền tự vệ để bảo vệ chủ quyền quốc gia", hãng thông tấn cho biết thêm, nhưng không nêu chi tiết.'),
+(43, N'Cuộc họp diễn ra sau khi Triều Tiên ngày 11/10 nói thiết bị bay không người lái (drone) của Hàn Quốc xâm nhập Bình Nhưỡng để thả truyền đơn, gọi đây là hành động khiêu khích về quân sự, chính trị.'),
+(43, N'Theo KCNA, ông Kim Jong-un cùng các quan chức dự họp đã nghe báo cáo về "sự khiêu khích nghiêm trọng của kẻ thù". Lãnh đạo Triều Tiên "bày tỏ lập trường chính trị và quân sự cứng rắn".'),
+(43, N'Căng thẳng giữa hai miền Triều Tiên leo thang trong những tháng gần đây, khi lãnh đạo Triều Tiên Kim Jong-un đẩy mạnh thử vũ khí và đưa ra các thông điệp đe dọa, còn Hàn Quốc đáp trả bằng cách tăng cường tập trận chung với đồng minh Mỹ.'),
+(43, N'Kim Yo-jong, em gái lãnh đạo Kim Jong-un, ngày 12/10 cảnh báo Triều Tiên sẽ đáp trả mạnh tay nếu Bình Nhưỡng tiếp tục phát hiện drone Hàn Quốc. Ngày 14/10, bà cáo buộc quân đội Hàn Quốc đứng sau vụ drone xâm nhập Bình Nhưỡng, nhưng không đưa ra bằng chứng.'),
+(43, N'Bộ Quốc phòng Hàn Quốc ngày 14/10 tuyên bố chính quyền Triều Tiên sẽ đối mặt "kết thúc" nếu gây tổn hại đến người dân nước này. Hội đồng Tham mưu trưởng Liên quân Hàn Quốc (JCS) cho biết họ không thể xác thực tuyên bố của Triều Tiên về drone.'),
+(43, N'Về mặt kỹ thuật, Triều Tiên và Hàn Quốc vẫn trong tình trạng chiến tranh, sau khi cuộc chiến 1950-1953 kết thúc bằng hiệp định đình chiến, không phải hiệp ước hòa bình. Bộ Tư lệnh Liên Hợp Quốc, giám sát hiệp định đình chiến, cho biết họ đã nắm thông tin liên quan cáo buộc về drone và đang điều tra sự việc.')
+
+update Information 
+set Description = N'Hình ảnh đoàn quân tiến về Hà Nội trong thời khắc lịch sử ngày 10/10/1954 đã được tái hiện tại "Ngày hội văn hóa vì hòa bình," kỷ niệm 70 năm Ngày Giải phóng Thủ đô.'
+where id= 9;
+
+update Information 
+set Description = N'(NLĐO) - Theo truyền thông địa phương, 2 quả rốc-két từ phía Hezbollah đã bắn trúng TP Haifa phía Bắc Israel và 5 quả khác trúng TP Tiberias cách đó 65 km.'
+where id= 8;
+
+update Information 
+set Description = N'Tối ngày 11/10, Thủ tướng Phạm Minh Chính và Đoàn đại biểu cấp cao Việt Nam đã về tới Hà Nội, kết thúc tốt đẹp chuyến công tác tham dự Hội nghị Cấp cao ASEAN lần thứ 44, 45 và các Hội nghị Cấp cao liên quan tại Lào, từ ngày 8 đến 11/10/2024, theo lời mời của Thủ tướng Cộng hòa Dân chủ Nhân dân Lào, Chủ tịch ASEAN 2024 Sonexay Siphandone.'
+where id= 35;
+
+update Information 
+set Description = N'Hơn 10 ngày sau khi bão Yagi đổ bộ nước ta, rất nhiều chuyện đã xảy ra, những mất mát, đau thương mà có lẽ phải rất, rất lâu nữa mới có thể nguôi ngoai, hoặc cũng có thể là không bao giờ. Những tưởng chỉ có trong chiến tranh mới có những nỗi đau xé lòng như vậy, nhưng không, hàng trăm người dân trong 1 ngôi làng trong tích tắc đã bị nhấn chìm sau tiếng nổ vang trời.'
+where id= 6;
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Nga "rắn giọng" trước động thái tập trận hạt nhân mới của NATO',
+'nga-ran-giong-truoc-dong-thai-tap-tran-hat-nhan-moi-cua-nato',
+N'Người phát ngôn Điện Kremlin Dmitry Peskov ngày 15/10 cảnh báo cuộc tập trận hạt nhân Steadfast Noon của NATO sẽ chỉ làm leo thang căng thẳng, trong bối cảnh giao tranh vẫn đang tiếp diễn ở Ukraine.',
+'By 24h.com.vn',
+'7/10/2024',
+'1728967702-9-2-width800height509.png',
+N'Phát biểu trước các phóng viên, ông Dmitry Peskov cho biết: "Với bối cảnh cuộc xung đột ở Ukraine đang ở giai đoạn "chiến tranh nóng", những cuộc tập trận như vậy chắc chắn sẽ chỉ dẫn đến căng thẳng leo thang hơn nữa", ông nói.',
+'',
+2
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(44, N'Trước những lo ngại từ giới chức NATO về mối đe dọa quân sự từ Nga, người phát ngôn Điện Kremlin nhấn mạnh Nga chưa bao giờ dịch chuyển hạ tầng quân sự hướng về phía tây, "mà thực tế diễn ra theo hướng NATO đưa vũ khí tới gần Nga".'),
+(44, N'"Vì các cường quốc hạt nhân như Mỹ, Anh, Pháp đang tham gia gián tiếp và trực tiếp trong một cuộc chiến chống lại Nga, nếu có đối thoại về kiểm soát hạt nhân, các bên phải chấp nhận đối thoại thêm về các phương diện an ninh khác", người phát ngôn Điện Kremlin lưu ý.'),
+(44, N'NATO trước đó đã tuyên bố rằng cuộc tập trận hạt nhân Steadfast Noon sẽ kéo dài hai tuần, bắt đầu từ 14/10, với sự tham gia của 2.000 binh sỹ từ 13 quốc gia liên minh và 60 máy bay quân sự ở Bắc Âu cùng 8 căn cứ không quân được huy động tham gia.'),
+(44, N'Đặc biệt, nhiều loại máy bay có khả năng mang vũ khí hạt nhân, máy bay ném bom, máy bay chiến đấu hộ tống và máy bay tiếp nhiên liệu, máy bay trinh sát và lực lượng tác chiến điện tử cũng tham gia tập trận.'),
+(44, N'Theo TASS, cuộc tập trận Steadfast Noon là một phần của chương trình nhiệm vụ hạt nhân chung của NATO, trong đó có khả năng sử dụng vũ khí hạt nhân chiến thuật của Mỹ được lắp trên máy bay. Chương trình nhiệm vụ hạt nhân chung của NATO mang tính chất tấn công và không nhằm mục đích trả đũa.'),
+(44, N'Trong khi đó, cùng ngày, phát biểu trong chuyến thăm đầu tiên tới phái bộ Ukraine của NATO tại Wiesbaden, nơi sẽ tiếp quản việc điều phối viện trợ quân sự từ Mỹ, tân Tổng thư ký NATO Mark Rutte tuyên bố NATO sẽ không khuất phục trước các mối đe dọa của Nga và vẫn tiếp tục ủng hộ mạnh mẽ Kiev.'),
+(44, N'"Thông điệp (gửi tới Tổng thống Nga Vladimir Putin ) là chúng tôi sẽ tiếp tục, rằng chúng tôi sẽ làm những gì cần thiết để đảm bảo rằng ông ta sẽ không đạt được mục đích của mình, rằng Ukraine sẽ chiến thắng", ông nói trong một cuộc phỏng vấn với đài phát thanh Đức Hessischer Rundfunk hôm 14/10.')
+
+update Information 
+set Description = N'Du lịch Bà Rịa - Vũng Tàu vào mùa thấp điểm năm 2024. Các doanh nghiệp cố gắng tìm giải pháp để kích cầu, cũng như đầu tư tái tạo, nâng cấp chất lượng dịch vụ.'
+where id= 31;
 
 use ONE_CMS;
 select * from Categories;
