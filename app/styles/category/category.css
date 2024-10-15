@@ -66,4 +66,114 @@ nav .sider-bar li {
   border-bottom-style: double;
   border-bottom-color: coral;
   color: rgb(190, 31, 31);
+}
+.box-body-category .detail-categories a {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  color: black;
+}
+.box-body-category .detail-categories a img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.box-body-category .detail-categories a h4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.box-body-category .detail-categories a span {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.box-body-category .detail-categories :hover {
+  color: #BA1516;
+}
+
+.information-relate-to h2 {
+  border-bottom-style: double;
+  border-bottom-color: coral;
+  color: rgb(190, 31, 31);
+}
+.information-relate-to .infor-cate a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.information-relate-to .infor-cate a img {
+  width: 100%;
+  height: 250px;
+}
+.information-relate-to .infor-cate a h4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.information-relate-to .infor-cate a span {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.information-relate-to .infor-cate-1 {
+  margin-top: 20px;
+}
+.information-relate-to .infor-cate-1 a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.information-relate-to .infor-cate-1 a img {
+  width: 100%;
+  height: 250px;
+}
+.information-relate-to .infor-cate-1 a h4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.information-relate-to .infor-cate-1 a span {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.banner {
+  margin-top: 20px;
+}
+.banner a img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+footer a img {
+  width: 100%;
+}
+footer :hover {
+  text-decoration: none;
+}
+footer .infor-company p {
+  margin-bottom: 0;
 }/*# sourceMappingURL=category.css.map */

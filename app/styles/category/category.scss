@@ -74,6 +74,8 @@ nav {
     }
 }
 
+
+
 .box-body-category {
     font-family: "Inter", serif;
 
@@ -83,4 +85,144 @@ nav {
         color: rgb(190, 31, 31);
     }
 
+    .detail-categories {
+        a {
+            display: inline-block;
+            width: 100%;
+            height: auto;
+            text-decoration: none;
+            color: black;
+
+            img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+            }
+
+            h4 {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+
+            span {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+
+        :hover {
+            color: #BA1516;
+        }
+    }
+}
+
+.information-relate-to {
+    h2 {
+        border-bottom-style: double;
+        border-bottom-color: coral;
+        color: rgb(190, 31, 31);
+    }
+
+    .infor-cate {
+        a {
+            text-decoration: none;
+            color: black;
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 250px;
+            }
+
+            h4 {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+
+            span {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+
+    .infor-cate-1 {
+        margin-top: 20px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 250px;
+            }
+
+            h4 {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+
+            span {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+
+}
+
+.banner {
+    margin-top: 20px;
+
+    a {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+footer {
+    margin-top: 30px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+
+
+    }
+
+    :hover {
+        text-decoration: none;
+    }
+
+    .infor-company {
+        p {
+            margin-bottom: 0;
+        }
+    }
 }
