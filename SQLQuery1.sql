@@ -946,6 +946,9 @@ update Information
 set Description = N'Du lịch Bà Rịa - Vũng Tàu vào mùa thấp điểm năm 2024. Các doanh nghiệp cố gắng tìm giải pháp để kích cầu, cũng như đầu tư tái tạo, nâng cấp chất lượng dịch vụ.'
 where id= 31;
 
+update Categories 
+set CategoryName = N'Tài Liệu' where id = 11;
+
 use ONE_CMS;
 select * from Categories;
 select * from Information;

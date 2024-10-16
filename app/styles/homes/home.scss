@@ -43,7 +43,11 @@ header {
         }
     }
 
-    .weather {}
+    .weather {
+        form {
+            display: none;
+        }
+    }
 }
 
 nav {

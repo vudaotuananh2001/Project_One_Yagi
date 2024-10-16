@@ -304,3 +304,19 @@ $(document).ready(function () {
     });
 });
 
+// $('#search').click(function () {
+//     var $this = $('#form');
+//     $this.toggle();  // This will toggle between showing and hiding the form
+// });
+
+$('#form').submit(function (event) {
+    event.preventDefault(); // Ngăn chặn hành động mặc định của form (refresh trang)
+
+    var searchValue = $('#input-search').val(); // Lấy giá trị từ input
+
+    console.log('Giá trị tìm kiếm:', searchValue);
+    searchValue = searchValue.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    searchValue = searchValue.replace(/\s+/g, '-');
+    console.log(searchValue);
+    window.location = "./pages/search.html?url=" + encodeURIComponent(searchValue);
+});

@@ -498,6 +498,19 @@ N'Chia sẻ với Tạp chí Kinh tế Việt Nam/VnEconomy, lãnh đạo một 
 7
 );
 
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Trung Quốc bơm 28 tỷ USD cho các địa phương làm dự án',
+'Trung-Quoc-bom-28-ty-USD-cho-cac-dia-phuong-lam-du-an',
+N'Đây là một phần trong nỗ lực của Bắc Kinh nhằm đạt mục tiêu tăng trưởng kinh tế, nhưng bị giới phân tích đánh giá là “không thấm vào đâu”...',
+'By vneconomy.vn',
+'7/10/2024',
+'t6mevr4iojislcqa46n23amcgu.png',
+N'Chính phủ Trung Quốc dành 200 tỷ nhân dân tệ, tương đương 28 tỷ USD, cho các dự án đầu tư của chính quyền các địa phương trong năm nay. Đây là một phần trong nỗ lực của Bắc Kinh nhằm đạt mục tiêu tăng trưởng kinh tế, nhưng bị giới phân tích đánh giá là “không thấm vào đâu”.',
+'',
+7
+);
+
 insert into DetailsContent (Detail_Id, Detail_Content) values
 (22, N'Kiểm toán độc lập đóng vai trò quan trọng trong việc đảm bảo tính đúng đắn, trung thực của báo cáo tài chính do kế toán đơn vị được kiểm toán lập ra và đưa ra ý kiến kiểm toán về tính trung thực, hợp lý của báo cáo tài chính. Từ đó, báo cáo tài chính đã kiểm toán cung cấp thông tin chính xác về tình hình tài chính của doanh nghiệp cho các đối tượng sử dụng.'),
 (22, N'Tuy nhiên, lãnh đạo công ty này thẳng thắn nhìn nhận kiểm toán viên gặp không ít khó khăn khi kiểm tra số liệu trong báo cáo tài chính doanh nghiệp tự lập, đặc biệt là báo cáo tài chính đã bị doanh nghiệp “xào nấu”, bởi kiểm toán viên chỉ kiểm toán được trên tài liệu được cung cấp, chứ không kiểm chứng được tài liệu đó là thật hay giả.'),
@@ -529,7 +542,413 @@ insert into DetailsContent (Detail_Id, Detail_Content) values
 (23, N'Nhà trường đã báo sự việc lên Công an phường Đông Ba (TP Huế) và công an đang vào cuộc tìm hiểu nguyên nhân, kiểm tra xem chất có trong thuốc lá điện tử mà 3 học sinh vừa hút là chất gì, có nguồn gốc từ đâu.'),
 (23, N'Theo lãnh đạo Sở Giáo dục và Đào tạo tỉnh Thừa Thiên Huế, từ đầu năm học sở đã có công văn gửi các trường trên địa bàn về việc tuyên truyền, ngăn chặn học sinh hút thuốc lá điện tử.')
 
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Ban đại diện cha mẹ học sinh quy định nộp quỹ lớp 300.000 đồng, bị phản ứng thì giảm một nửa',
+'ban-dai-dien-cha-me-hoc-sinh-quy-dinh-nop-quy-lop-300-000-dong-bi-phan-ung-thi-giam-mot-nua',
+N'Ban đại diện cha mẹ học sinh lớp 2/2 ở Trường tiểu học Cam Nghĩa 2 (TP Cam Ranh, tỉnh Khánh Hòa) quy định thu quỹ lớp 300.000 đồng, nhưng khi có phụ huynh ý kiến thì giảm xuống còn 150.000 đồng.',
+'By tuoitre.vn',
+'7/10/2024',
+'base64-1728277783152317254899.png',
+N'Ngày 7-10, trao đổi với Tuổi Trẻ Online, bà Lê Thị Kim Oanh - phó hiệu trưởng phụ trách Trường tiểu học Cam Nghĩa 2 (TP Cam Ranh, tỉnh Khánh Hòa) - cho biết nhà trường đã tiếp nhận phản ánh việc ban đại diện cha mẹ học sinh của lớp 2/2 đề ra mức thu quỹ lớp khá cao, sau khi có phụ huynh ý kiến thì giảm xuống còn một nửa.',
+'',
+8
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(24, N'Cụ thể là ban đại diện cha mẹ học sinh lớp này thông báo thu 300.000 đồng/học sinh để đóng tiền quỹ lớp năm học 2024 - 2025. '),
+(24, N'Sau khi có ý kiến không đồng tình thì ban đại diện cha mẹ học sinh lớp thông báo giảm mức đóng quỹ lớp còn 150.000 đồng/học sinh.'),
+(24, N'Theo bà Oanh, việc thu quỹ lớp là do ban đại diện cha mẹ học sinh của lớp 2/2 tự tiến hành, còn nhà trường không triển khai thu quỹ lớp, nếu có thu thì trên tinh thần tự nguyện, không yêu cầu đóng một số tiền cụ thể.'),
+(24, N'Bà Oanh cho biết đã có một số phụ huynh đóng 300.000 đồng và 150.000 đồng/học sinh để nộp vào quỹ của lớp 2/2.'),
+(24, N'Cũng theo bà Oanh, chỉ có lớp 2/2 triển khai quy định nộp tiền quỹ lớp với số tiền cụ thể, còn lại tất cả các lớp không triển khai như vậy mà đều theo tinh thần tự nguyện.'),
+(24, N'"Ngành giáo dục không có chủ trương thu quỹ lớp của học sinh theo quy định về số tiền cụ thể mà chỉ trên tinh thần tự nguyện như văn bản hướng dẫn, các khoản thu phải thực hiện nghiêm túc" - vị này cho hay.')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Thiện Nhân tự làm nhạc ở tuổi 22',
+'thien-nhan-tu-lam-nhac-o-tuoi-22-toi-ngheo-that-ma',
+N'Với ca khúc mới Thiện Nhân (quán quân Giọng hát Việt nhí 2014) đảm nhận nhiều vai trò như sáng tác, trình diễn, làm hình ảnh, chỉnh lời...',
+'By tuoitre.vn',
+'7/10/2024',
+'thien-nhan-1728274958310419227811.png',
+N'Thiện Nhân nói thêm với Tuổi Trẻ Online: "Vì tôi nghèo thật mà. Không chỉ mình tôi mà bây giờ là tình hình chung của mọi người. Ai cũng phải suy nghĩ, tính toán thật kỹ. Đây là lần đầu tiên tôi tự làm mọi thứ nên còn nhiều thứ chưa tốt. Tôi vừa làm vừa học thêm kinh nghiệm.',
+'',
+8
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(25, N'Nhưng không sao, nghèo nhưng tôi nhận được món quà tinh thần là tình yêu thương của khán giả và vẫn làm được sản phẩm tặng khán giả".'),
+(25, N'Về vấn đề tâm lý, Thiện Nhân cho biết cô đã dần ổn định lại để bước tiếp hành trình nghệ thuật. "Khán giả còn thương, còn nhớ tôi là tôi còn hát" - cô chia sẻ.'),
+(25, N'Trong bài hát, Thiện Nhân hát lên nỗi lòng của cô gái trải qua tổn thương tình cảm. Sau những ngày vụn vỡ, cô nhận ra cuộc đời vẫn rất tươi đẹp. Cô khuyến khích mọi người yêu thương bản thân.'),
+(25, N'Về sự tương đồng giữa cô gái trong bài hát và bản thân, Thiện Nhân cho hay chuyện tình của cô vẫn êm đềm. Cô giống nhân vật là từng "một mình với góc tối khi bên em không còn ai".'),
+(25, N'Trước những bình luận ác ý như "hết thời" hay "dậy thì không thành công", Thiện Nhân từng suy sụp. Nhưng sau quá trình điều trị tâm lý, cô chọn tâm thế tích cực để đón nhận mọi ý kiến.'),
+(25, N'Thiện Nhân cũng khẳng định cô không hề rời xa dòng nhạc quê hương, trữ tình: "Tôi sẽ không rời hay từ bỏ bất cứ dòng nhạc nào. Chỉ cần khán giả còn yêu thương, còn thích tôi hát dòng nhạc đó, tôi vẫn sẽ hát để phục vụ khán giả.'),
+(25, N'Ca sĩ biết có một số khán giả không muốn cô lớn lên, muốn cô mãi là "bé Thiện Nhân". Nhưng ai cũng phải trưởng thành. Cô sẽ thay đổi hình ảnh một cách nhẹ nhàng, tinh tế để khán giả chấp nhận.')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Bức xúc trước những bình luận tiêu cực trên video dạy học của cô giáo về hưu',
+'buc-xuc-truoc-nhung-binh-luan-tieu-cuc-tren-video-day-hoc-cua-co-giao-ve-huu',
+N'Do sự cố âm thanh, video giảng bài mới nhất của cô giáo Ngô Thúy Trình xuất hiện nhiều bình luận tiêu cực, phản cảm. Những lời lẽ châm chọc, xúc phạm đến cô giáo lớn tuổi khiến nhiều người bức xúc.',
+'By vanhoa.vn',
+'7/10/2024',
+'z5539866005916_37e19aafa6d394ff954e37291acfa80d.png',
+N'Cô Ngô Thúy Trình là một giáo viên dạy Văn đã về hưu. Hiện cô sở hữu tài khoản Tiktok có hơn 128,1K lượt theo dõi. Cô thường xuyên đăng tải các video bài giảng môn ngữ văn chi tiết với phong cách giảng bài mộc mạc, gần gũi. ',
+'',
+9
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(26, N'Tuy nhiên trong một video gần đây, âm thanh trong clip của cô có vấn đề, dẫn đến tiếng bị vang và có phần khó nghe. Điều gây bức xúc là rất nhiều bạn trẻ đã để lại hàng loạt những bình luận tiêu cực,phản cảm, xúc phạm đến cô giáo lớn tuổi như: "Không có nhu cầu nghe giảng "; "Lời giảng vọng từ cõi âm"; "Tiếng dạy Văn cõi âm"…'),
+(26, N'Hành động của một bộ phận học sinh này khiến nhiều người vô cùng bức xúc. Thứ nhất, cô giáo Ngô Thúy Trình ở độ tuổi ông, bà của họ, nên quy tắc tối thiểu là phải “kính trên nhường dưới”. Đó còn chưa kể đến việc, cô Ngô Thúy Trình còn là một giáo viên kỳ cựu nhiều năm cống hiến cho giáo dục. Dù nay đã về hưu, vượt qua khoảng cách thế hệ, cô vẫn tập tành chơi TikTok và đăng tải những video giảng bài tâm huyết.'),
+(26, N'Dù không phải tất cả nhưng những bình luận tiêu cực nêu trên cũng phản ánh sự xuống cấp về đạo đức và tư tưởng của một bộ phận giới trẻ. Bên cạnh đó, một bộ phận lớn người xem rất ủng hộ cô đồng thời cũng bày tỏ sự bức xúc và đề nghị Tiktok kiểm duyệt phần bình luận chặt chẽ hơn để bảo vệ môi trường mạng. ')
+
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Niềm vui “Nấu ăn cho em” và thách thức trekking 20km tại “Vi Vu Sapa” 7',
+'niem-vui-nau-an-cho-em-va-thach-thuc-trekking-20km-tai-vi-vu-sapa-7',
+N'Đó là 2 trong số nhiều hoạt động nổi bật tại “Vi Vu Sapa” đợt 7 - một chương trình du lịch trải nghiệm kết hợp thiện nguyện thu hút nhiều lứa tuổi trưởng thành tham gia. ',
+'By vanhoa.vn',
+'7/10/2024',
+'z5285547135709_2175200e0b128a6cdd373df31590994a.png',
+N'Thay vì chỉ tập trung vào việc khám phá địa điểm du lịch, người trẻ ngày nay cũng muốn có cơ hội tham gia vào các hoạt động có ý nghĩa xã hội và góp phần cải thiện cuộc sống của cộng đồng địa phương mà họ ghé thăm. Điều này không chỉ mang lại trải nghiệm ý nghĩa và sâu sắc hơn trong hành trình du lịch, mà còn giúp họ hiểu rõ hơn về văn hóa, truyền thống và thách thức mà một số cộng đồng đang phải đối mặt. ',
+'',
+9
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(27, N' Yêu thích sự trải nghiệm, cống hiến hết mình với hoạt động tình nguyện cùng khả năng đa nhiệm, nhanh nhạy, khéo léo đã tạo bước đà mạnh mẽ cho người con gái xứ Nam Trung Bộ thực hiện các chương trình trải nghiệm chốn Tây Bắc yên bình, hùng vĩ.  '),
+(27, N'Chất thơ của thiên nhiên và cốt cách thân tình của người miền núi đã thổi vào Tuệ Châu - Trưởng BTC "Vi Vu Sapa" tâm tư miền ngược. Chính vì thương mến mảnh đất nơi đây, cô gái gốc Bình Định càng muốn chia sẻ cái đẹp, cái tình đáng quý này đến nhiều người trẻ như mình. Các chương trình trải nghiệm vùng cao như: Du hí Cao Bằng, Lang thang Hà Giang,... hay điển hình là chương trình “Vi Vu Sapa” cũng được bắt rễ từ đây.  '),
+(27, N' Nữ thủ lĩnh xuất sắc trong hoạt động thiện nguyện luôn dành sự quan tâm tới những đứa trẻ vùng cao: “Mình nghe cô giáo nói, các em chưa bao giờ biết mỳ ý hay gà rán là gì, Mình muốn các em được trải nghiệm giống như những đứa trẻ dưới xuôi. Phần là vì mình muốn các bạn tình nguyện viên tham gia có những trải nghiệm thú vị khi nấu ăn trên lưng đồi. Và 60 người trong đoàn ai cũng rất nhiệt tình. Nhìn các em ăn thật ngon khiến chúng mình thật hạnh phúc”.'),
+(27, N'Khác với những chương trình trước đó, “Vi Vu Sapa” đợt 7 còn có cơ duyên đồng hành với người nước ngoài và người trung niên bên lứa tuổi sinh viên trẻ trung. Theo Tuệ Châu, vị khách Tây cảm thấy thú vị và rất ủng hộ khi tham gia cùng các bạn trẻ. Ông ấy đi khắp nơi trò chuyện với mọi người và chụp ảnh với các em nhỏ. '),
+(27, N'Lần đầu tham gia với vai trò là một tình nguyện viên của chương trình, Minh Anh (2000, Hà Nội) cho biết: “Nấu ăn cho em là một hoạt động rất ý nghĩa. Mình nghĩ hoạt động này chứa đựng đầy tính nhân văn. Tất cả mọi người trong đoàn đã góp một  phần bé nhỏ, mang đến niềm vui cho các bé ở trên vùng cao. Mình sẽ tiếp tục tham gia và rủ bạn bè, người thân đăng ký trải nghiệm cùng”. '),
+(27, N'Dù đã bước vào độ tuổi U30, chị Kim Dung (1994, Hà Nam) không hề có khoảng cách đối với những người trẻ cùng tham gia trekking cùng minh. Chị chia sẻ: “Hoạt động Trekking hơn 20km tại Vi vu Spa để lại trong mình nhiều ấn tượng. Chúng mình được ngắm cảnh đẹp thiên nhiên hùng vĩ suốt cung đường dài. Ngoài ra, mọi người còn có thể tìm hiểu nét đẹp văn hoá của người dân tại bản Tả Van”. '),
+(27, N'Bên cạnh đó, Kim Dung và những người đồng đội trong đoàn “Vi Vu Sapa” đợt 7 đã phải vượt qua thử thách và giới hạn của bản thân, rèn luyện ý chí, tinh thần vươn lên. Ngay cả khi gặp những đoạn đường đất khó đi, giữa trời nắng chang chang, chị cùng các tình nguyện viên khác lạc quan và tiếp thêm cho nhau động lực, sự quyết tâm để đạt được mục tiêu. ')
+
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Dương Hoàng Yến tự hào hát ''Một Vòng Việt Nam'' trên đất bạn Campuchia',
+'duong-hoang-yen-tu-hao-hat-mot-vong-viet-nam-tren-dat-ban-campuchia',
+N'(Datnuoc.com.vn)- Ứng viên giải Mai Vàng lần thứ 29- ca sĩ Dương Hoàng Yến nhận nhiều lời khen khi biểu diễn trước Phó Thủ tướng và lãnh đạo Campuchia.',
+'By vanhoagiatri.vn',
+'7/10/2024',
+'img5714-17086544420831858941765.png',
+N'Mới đầu năm, Dương Hoàng Yến đã có chuyến xuất ngoại tới Campuchia tham dự sự kiện 15 năm thành lập mạng viễn thông lớn nhất quốc gia này - Metfone. Sự kiện diễn ra ngay sau Tết Nguyên Đán 2024 tại thủ đô Phnom Penh Đây là mạng viễn thông do Viettel liên doanh với đối tác tại Campuchia phát triển. ',
+'',
+9
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(28, N'Là ca sĩ Việt Nam duy nhất được mời biểu diễn, Dương Hoàng Yến đã lựa chọn 2 ca khúc tiếng Việt là "Một vòng Việt Nam" và "Chiếc Khăn Piêu" để biểu diễn trên sân khấu sự kiện với tà áo dài truyền thống.'),
+(28, N'Hai ca khúc này không chỉ giới thiệu cho bạn bè quốc tế về 1 Việt Nam tươi đẹp hùng cường, mà qua giọng hát cao vút, truyền cảm của Dương Hoàng Yến, niềm tự hào dân tộc càng được tôn lên đẹp đẽ.'),
+(28, N'Dương Hoàng Yến cho biết cô vô cùng tự hào khi có cơ hội hát ca khúc của dân tộc Việt Nam trên đất bạn, đây là kỷ niệm đáng nhớ trong sự nghiệp của cô.'),
+(28, N'Ngoài 2 ca khúc tiếng Việt, nữ ca sĩ còn mang tới sự kiện 3 ca khúc tiếng Anh là "Never Enough", "Let It Go", "Let''s Shine". Trong đó, 2 ca khúc Let It Go và Let''s Shine được cô song ca cùng 1 nữ ca sĩ trẻ người Campuchia.'),
+(28, N'Màn hòa giọng của 2 ca sĩ thực lực đến từ 2 đất nước trên sân khấu đã khiến sự kiện có khoảnh khắc đậm tình bạn bè quốc tế cả 2 nước láng giềng.'),
+(28, N'Có thể nói, sau thời gian Nam tiến và tập trung phát triển sự nghiệp ở cả hai miền Nam - Bắc, Dương Hoàng Yến ngày càng thăng hạng từ nhan sắc đến các dự án nghệ thuật. Ngoài ra mắt các sản phẩm âm nhạc cá nhân, nữ ca sĩ cũng liên tục có mặt tại các sự kiện uy tín trong và ngoài nước.'),
+(28, N'Năm 2024 với chuyến xuất ngoại khai xuân qua nước bạn Campuchia, Dương Hoàng Yến tiết lộ cô còn rất nhiều kế hoạch thú vị sẽ sớm gửi đến khán giả trong năm mới, hứa hẹn có nhiều mới lạ và đáng quan tâm.')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'70 năm Giải phóng Thủ đô: Du lịch xanh thân thiện và cuốn hút',
+'70-nam-giai-phong-thu-do-du-lich-xanh-than-thien-va-cuon-hut',
+N'Đồng hành cùng Thủ đô trong 70 năm sau ngày giải phóng, ngành du lịch ngày càng khởi sắc, góp phần xây dựng Hà Nội trở thành trung tâm chính trị, kinh tế, văn hóa, xã hội, "trái tim" của cả nước. Thành phố đang nỗ lực phát triển theo hướng bền vững, kinh tế xanh, kinh tế tuần hoàn, ứng dụng mạnh chuyển đổi số..., trong đó du lịch là một mũi nhọn.',
+'By baotintuc.vn',
+'7/10/2024',
+'quang-phu-cau-71024-1.png',
+'',
+'https://www.youtube.com/watch?v=nKvdsH_Hd1o',
+10
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(30, N'Chú thích ảnh
+Du khách tại làng nghề tăm hương Quảng Phú Cầu, huyện Ứng Hòa, Hà Nội (còn gọi là làng hương Xà Cầu). Ảnh: Trần Việt/TTXVN
+Hội tụ các yếu tố phát triển du lịch xanh
+Nhiều năm qua, phát triển du lịch xanh, bền vững luôn được Chính phủ quan tâm, tạo điều kiện để các địa phương, nhất là những tỉnh, thành trọng điểm du lịch thực hiện.
+Advertisement: 0:24
+Unibots.com
+Thành phố Hà Nội cũng đã ban hành nhiều chủ trương, chính sách, tích cực triển khai. Có thể kể đến như: Chương trình số 06-CTr/TU của Thành ủy Hà Nội khóa XVII về “Phát triển văn hóa; nâng cao chất lượng nguồn nhân lực; xây dựng người Hà Nội thanh lịch, văn minh giai đoạn 2021 - 2025”; Nghị quyết số 06-NQ/TU, ngày 26/6/2016 của Ban Thường vụ Thành ủy Hà Nội về “Phát triển du lịch Thủ đô Hà Nội giai đoạn 2016 - 2020 và những năm tiếp theo”. Đặc biệt, ngày 4/6/2024, UBND thành phố Hà Nội có kế hoạch tiếp tục thực hiện Nghị quyết số 06-NQ/TU về “Phát triển du lịch Thủ đô Hà Nội giai đoạn 2016-2020 và những năm tiếp theo”, giai đoạn 2024-2025... Những chủ trương, chính sách đồng bộ, thiết thực đã và đang phát huy hiệu quả, tạo nên bức tranh đa sắc trong phát triển du lịch Thủ đô.'),
+(30, N'Hà Nội có nhiều tiềm năng và lợi thế để phát triển du lịch xanh bền vững khi hội đủ yếu tố tự nhiên và nhân văn. Thiên nhiên ưu đãi cho Thủ đô hệ thống tài nguyên du lịch tự nhiên phong phú. Từ khí hậu 4 mùa rõ rệt, nguồn nước mặt và nước ngầm dồi dào quanh năm, địa hình đa dạng bao gồm đồng bằng trù phú ở nội đô hay những dãy núi đồi uốn lượn ở khu vực Sóc Sơn, Ba Vì..'),
+(30, N'Hà Nội còn sở hữu hệ thống tài nguyên du lịch văn hóa đặc sắc. Theo Sở Văn hóa và Thể thao, trên địa bàn thành phố có gần 6.000 di tích lịch sử, văn hóa. Hệ thống nghề và làng nghề của Hà Nội cũng rất phong phú và đa dạng với 47 nghề/52 nghề truyền thống của cả nước; 1.350 làng nghề và làng có nghề, trong đó có 305 làng nghề và làng nghề truyền thống thuộc 23 quận, huyện và thị xã… đã được công nhận.'),
+(30, N'Nắm bắt xu thế phát triển du lịch bền vững, nhiều điểm du lịch vùng ngoại thành Hà Nội đang linh hoạt, chuyển biến mạnh mẽ, xây dựng không gian xanh, sử dụng các vật liệu thân thiện môi trường trong hoạt động du lịch. Các điểm du lịch tại Ba Vì, Sơn Tây, Mỹ Đức, Thạch Thất… cải tạo cảnh quan, xây dựng và đưa vào khai thác nhiều sản phẩm du lịch xanh, hấp dẫn du khách như Làng cổ Đường Lâm (thị xã Sơn Tây), du lịch cộng đồng tại huyện Thạch Thất, làng hương Quảng Phú Cầu…'),
+(30, N'Ở nội thành, nhiều năm qua, Hà Nội đã triển khai nhiều hình thức như đưa du khách khám phá phố cổ bằng xe điện, xe xích lô, bố trí cho khách trải nghiệm, tìm hiểu phong tục, tập quán, văn hóa, ẩm thực Việt bằng xe đạp... Từ năm 2019, thành phố đã khởi động mô hình du lịch không khói thuốc ở 30 điểm du lịch, di tích lịch sử văn hóa tại quận Hoàn Kiếm như: Đền Ngọc Sơn, đền Bà Kiệu, chùa Quán Sứ, chùa Bà Đá, Bảo tàng Lịch sử quốc gia, Bảo tàng Phụ nữ, Thư viện Quốc gia, Nhà hát Lớn, Nhà thờ Lớn, Nhà thờ Hàm Long, Nhà tù Hỏa Lò, Nhà hát Múa rối nước Thăng Long, Rạp Công nhân… Đây là các điểm thu hút đông du khách tham quan, qua đó góp phần tạo dấu ấn về một Hà Nội xanh - sạch - đẹp - thân thiện và văn minh.'),
+(30, N'Chú trọng phát triển du lịch xanh  là một xu hướng tất yếu, hướng đến phát triển du lịch Thủ đô bền vững. Tuy nhiên, việc phát triển du lịch xanh vẫn gặp không ít trở ngại do ý thức của một bộ phận đơn vị kinh doanh du lịch và cộng đồng trong bảo vệ môi trường, cảnh quan, thiên nhiên chưa cao. Kết cấu hạ tầng, cơ sở vật chất phụ trợ tại nhiều điểm du lịch sinh thái nông nghiệp, nông thôn chưa được đầu tư hoàn chỉnh, đồng bộ…'),
+(30, N'Giám đốc Sở Du lịch Hà Nội Đặng Hương Giang thông tin: Những tháng cuối năm, Thủ đô tập trung thực hiện nhiều chương hấp dẫn, thu hút du khách, nhất là trong dịp cao điểm kỷ niệm 70 năm Giải phóng Thủ đô. Cùng với đó, Sở tập trung xây dựng mô hình thí điểm phát triển kinh tế du lịch nông nghiệp, nông thôn gắn với xây dựng nông thôn mới giai đoạn 2022 - 2025; triển khai Kế hoạch xây dựng mô hình du lịch cộng đồng gắn với trải nghiệm thực tế tại các làng nghề và điểm du lịch gắn với giá trị văn hóa truyền thống của đồng bào dân tộc thiểu số. Sở tăng cường tuyên truyền, quảng bá hình ảnh du lịch, các điểm đến, sản phẩm du lịch mới của Thủ đô trên các kênh truyền thông trong nước, quốc tế.')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Bà Rịa - Vũng Tàu tìm cơ hội trong mùa thấp điểm du lịch',
+'ba-ria-vung-tau-tim-co-hoi-trong-mua-thap-diem-du-lich',
+N'Du lịch Bà Rịa - Vũng Tàu vào mùa thấp điểm năm 2024. Các doanh nghiệp cố gắng tìm giải pháp để kích cầu, hoặc đầu tư tái tạo, nâng cấp chất lượng dịch vụ.',
+'By laodong.vn',
+'7/10/2024',
+'Team-Building.png',
+'',
+'https://www.youtube.com/watch?v=o4JCKvkrmRU',
+10
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(31, N'Sau 8 tháng tăng trưởng mạnh so với cùng kỳ năm trước, kể từ giữa tháng 9, lượng khách du lịch nội địa đến Bà Rịa - Vũng Tàu giảm mạnh, do nhiều nguyên nhân, như học sinh, sinh viên vào năm học mới; mùa cao điểm mưa bão không thuận lợi cho du lịch...'),
+(31, N'Qua thống kê, 8 tháng đầu năm 2024, Bà Rịa - Vũng Tàu đã có tăng trưởng đến khoảng 17% ở cả tổng lượng khách và doanh thu lưu trú. Nhưng đến nay, ghi nhận tại các cơ sở lưu trú cho thấy lượng khách đã giảm mạnh.'),
+(31, N'Theo đại diện Carmelina Beach Resort, công suất phòng ngày thường trong tháng 9 dưới 20%, tập trung vào lượng khách tận dụng khuyến mãi giờ vàng. Những ngày cuối tuần khách có đông hơn nhưng cũng chưa đến 40%. “Nhận thấy nhu cầu thị trường giảm sâu, chúng tôi mạnh dạn đóng cửa một số ngày trong tuần để tập trung cho công tác bảo dưỡng, duy tu lớn cơ sở vật chất, đào tạo nhân viên”, đại diện resort này thông tin.'),
+(31, N'Để duy trì hoạt động, ổn định cơ sở vật chất, trả lương cho người lao động, đòi hỏi doanh nghiệp du lịch phải có nguồn thu để duy trì. Vì vậy, các biện pháp kích thích, làm tăng nhu cầu, đẩy mạnh chi tiêu cho du lịch được nhiều doanh nghiệp áp dụng để tạo ra doanh thu, lợi nhuận.'),
+(31, N'Tại dự án Emerald Hồ Tràm Resort, đơn vị này đã tận dụng lợi thế bãi biển dài lý tưởng để tổ chức các hoạt động teambuilding. Cùng với cơ sở vật chất tiêu chuẩn 5 sao, chi phí hợp lý đưa ra trong mùa thấp điểm (chỉ khoảng 1,2 triệu đồng/khách/ngày bao gồm lưu trú, buffet sáng...), đơn vị này đã thu hút được nhiều đoàn khách về nghỉ dưỡng kết hợp vui chơi vận động trên bãi biển; hoặc tổ chức hội họp các sự kiện của doanh nghiệp.'),
+(31, N'Ngoài chương trình của các cơ sở lưu trú, địa phương cũng tham gia vào kế hoạch kích cầu du lịch mùa thấp điểm. Các huyện có thế mạnh về du lịch đều triển khai những chương trình nhằm nâng công suất, doanh thu du lịch trong thời điểm những tháng cuối năm.'),
+(31, N'Đầu tháng 9.2024, các doanh nghiệp Bà Rịa - Vũng Tàu đã đón những doanh nghiệp lữ hành hàng đầu Trung Quốc, Thái Lan và UAE (Các tiểu vương quốc Ả rập thống nhất) đến khảo sát dịch vụ, quảng bá điểm đến.')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Bài học của khách Mỹ từ lỗi visa khi du lịch Việt Nam',
+'bai-hoc-cua-khach-my-tu-loi-visa-khi-du-lich-viet-nam',
+N'Jill Schildhouse bay 33 giờ từ Mỹ đến TP HCM du lịch nhưng bị từ chối nhập cảnh vì tên trên hộ chiếu và visa không khớp.',
+'By vnexpress.net',
+'7/10/2024',
+'Team-Building.png',
+'Khi chuyến bay 33 giờ từ Phoenix đến TP HCM hạ cánh, Jill vui mừng vì hoàn tất hành trình dài, nhưng tại khu vực kiểm soát hộ chiếu, cô bị từ chối nhập cảnh vì một lỗi visa tưởng chừng rất nhỏ. Visa của Jill không khớp với hộ chiếu vì thiếu tên đệm.',
+'',
+10
+);
+
+update Information set  Image = 'cg2a2289-1728183880-5362-1728184014.png' where id =32;
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(32, N'''Tôi thực sự bối rối", Jill kể trên tờ Insider, nói thêm đã đến 46 quốc gia và chưa bao giờ gặp vấn đề tương tự.'),
+(32, N'Sau khi chạy quanh sân bay tìm sự hỗ trợ, Jill được hướng dẫn có hai lựa chọn: quay về Nhật Bản hoặc trả tiền để có visa khẩn cấp, mà theo nhân viên sân bay là "rất đắt".'),
+(32, N'Cô thở phào nhẹ nhõm khi biết visa khẩn cấp có giá 130 USD (khoảng 3,2 triệu đồng) - ít hơn cô tưởng tượng - nhưng lại lo lắng khi nhân viên chỉ chấp nhận thanh toán bằng tiền mặt. May mắn, Jill tìm thấy vài tờ 20 USD dự phòng trong túi, đủ để cô trả và nhận visa mới sau vài giờ chờ đợi căng thẳng.'),
+(32, N'Jill rút ra hai bài học quý giá từ trải nghiệm này. Một là mọi thông tin trên visa và hộ chiếu phải khớp hoàn toàn, kể cả tên đệm, dù trong tờ khai điện tử không yêu cầu cụ thể. Hai là tầm quan trọng của việc luôn mang theo tiền mặt dự phòng khi đi du lịch quốc tế. "Tôi may mắn vì lỗi này chỉ tốn một chút tiền và vài giờ, chứ không làm hỏng cả chuyến đi", du khách Mỹ nói.')
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(34, N'Khoản ngân sách trên được Ủy ban Phát triển và cải cách Quốc gia Trung Quốc (NDRC) công bố tại một cuộc họp báo vào hôm thứ Ba tuần này. Tuy nhiên, các nhà đầu tư lộ rõ sự thất vọng vì trước đó họ mong đợi một gói kích cầu lớn hơn bằng chính sách tài khóa. Thị trường chứng khoán Trung Quốc vì thế đã giảm điểm chóng mặt trong phiên ngày thứ Tư, với mức giảm 7,1% của chỉ số CSI 300.'),
+(34, N'Hồi tháng 3, Trung Quốc công bố mục tiêu tăng trưởng kinh tế cả năm 5%, nhưng hàng loạt dữ liệu thống kê trong mùa hè yếu đến mức các nhà kinh tế lo ngại mục tiêu này có thể vượt khỏi tầm tay. Nền kinh tế lớn thứ hai thế giới đang trong tình trạng ảm đạm với sức ép từ cuộc khủng hoảng bất động sản kéo dài, tiêu dùng yếu, tỷ lệ thanh niên thất nghiệp cao, và nhiều vấn đề khác.'),
+(34, N'Ông Zheng cho biết để hỗ trợ các chính quyền địa phương đang chật vật xoay sở với mức nợ cao, Bắc Kinh sẽ cung cấp 100 tỷ nhân dân tệ, tương đương 14 tỷ USD, từ ngân sách trung ương và thêm 100 tỷ nhân dân tệ nữa để các địa phương có vốn rót vào các dự án đầu tư.'),
+(34, N'Cuối tháng 9, Trung Quốc công bố một gói kích cầu lớn gồm các biện pháp chính sách tiền tệ như hạ lãi suất, hạ tỷ lệ dự trữ bắt buộc và bơm tiền vào hệ thống tài chính. Tuy nhiên, giới đầu tư và chuyên gia phân tích vẫn kỳ vọng Chính phủ nước này sẽ tung thêm một gói kích cầu bằng chính sách tài khóa.'),
+(34, N'Trong một động thái nhằm vực dậy tâm trạng nhà đầu tư, Văn phòng Thông tin Hội đồng Nhà nước Trung Quốc ngày 9/10 thông báo rằng tại một cuộc họp báo bắt đầu lúc 10h sáng ngày thứ Bảy tuần này theo giờ địa phương, Bộ trưởng Bộ Tài chính Trung Quốc Lan Fo’an sẽ công bố các biện pháp chính sách tài khóa để hỗ trợ tăng trưởng và trả lời câu hỏi của báo giới.'),
+(34, N'Ông Jia Kang, người trước đây từng đứng đầu của một tổ chức nghiên cứu thuộc Bộ Tài chính Trung Quốc, mới đây nói với tờ báo The Paper rằng Bắc Kinh nên phát hành tới 10 nghìn tỷ nhân dân tệ (1,4 nghìn tỷ USD) trái phiếu chính phủ dài hạn để đầu tư vào cơ sở hạ tầng và công trình công cộng. Ông cho biết con số này “không phải là vô lý” vì trước đây Bắc Kinh đã từng tung ra các biện pháp kích thích tương tự.')
+
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'ASEAN - Hàn Quốc thiết lập quan hệ Đối tác Chiến lược Toàn diện',
+'ASEAN-Han-Quoc-thiet-lap-quan-he-Doi-tac-Chien-luoc-Toan-dien',
+N'ASEAN và Hàn Quốc nhất trí thiết lập quan hệ Đối tác Chiến lược Toàn diện tại Hội nghị Cấp cao ASEAN - Hàn Quốc lần thứ 25 ở Lào.',
+'By vnexpress.net',
+'7/10/2024',
+'4f66e2a7318188dfd190-2168-1728551350.png',
+'Tuyên bố chung thiết lập quan hệ Đối tác Chiến lược Toàn diện ASEAN - Hàn Quốc được thông qua sáng 10/10 tại Vientiane. Lãnh đạo các nước nhấn mạnh việc thiết lập quan hệ Đối tác Chiến lược Toàn diện thể hiện mức độ gắn kết cao và chặt chẽ, cũng như kết quả tích cực của hợp tác sâu rộng giữa ASEAN và Hàn Quốc.',
+'',
+5
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(35, N'Các lãnh đạo ASEAN và Hàn Quốc khẳng định tiếp tục phối hợp chặt chẽ triển khai hiệu quả Sáng kiến Đoàn kết ASEAN - Hàn Quốc (KASI) nhằm làm sâu sắc hơn nữa hợp tác hai bên.'),
+(35, N'Ngoài hợp tác ứng phó các thách thức an ninh phi truyền thống, đẩy mạnh giao thương, kết nối doanh nghiệp, giao lưu nhân dân, văn hóa, giáo dục, du lịch, hai bên nhất trí thúc đẩy hợp tác khoa học công nghệ và đổi mới sáng tạo, chuyển đổi số, môi trường, ứng phó biến đổi khí hậu, quản lý thiên tai...'),
+(35, N'Tổng thống Hàn Quốc Yoon Suk-yeol khẳng định tiếp tục tăng cường đoàn kết và hợp tác với các nước ASEAN, ứng phó và xử lý hiệu quả các thách thức về an ninh, kinh tế, biến đổi khí hậu.'),
+(35, N'Hàn Quốc cũng sẽ tăng đầu tư nguồn lực hợp tác với ASEAN về thành phố thông minh, chuyển đổi số, nghiên cứu chung, đào tạo các chuyên gia về công nghệ và trí tuệ nhân tạo.'),
+(35, N'Thủ tướng đề nghị ASEAN - Hàn Quốc đóng góp trách nhiệm hơn cho hòa bình, an ninh, ổn định và thịnh vượng ở khu vực. Việt Nam hoan nghênh Hàn Quốc tiếp tục tích cực ủng hộ lập trường chung của ASEAN về Biển Đông cũng như nỗ lực xây dựng Biển Đông thành vùng biển hòa bình, ổn định, hợp tác và phát triển bền vững.'),
+(35, N'ASEAN sẵn sàng phối hợp, thúc đẩy các bên liên quan tăng cường đối thoại, hướng đến hoà bình, ổn định lâu dài trên bán đảo Triều Tiên phi vũ khí hạt nhân.'),
+(35, N'ASEAN - Hàn Quốc cũng cần thúc đẩy mạnh mẽ hợp tác kinh tế, trọng tâm là kết nối các nền kinh tế, hợp tác văn hóa, du lịch và giáo dục, đào tạo. Thủ tướng đề nghị hai bên thúc đẩy ký kết các văn kiện chung, tạo cơ chế hợp tác thông thoáng, thuận lợi, mở cửa thị trường lớn hơn cho nhau, đẩy mạnh giao lưu, hợp tác văn hóa, du lịch, và giáo dục đào tạo'),
+(35, N'Theo Thủ tướng Phạm Minh Chính, ASEAN - Hàn Quốc cần hành động quyết liệt hơn để thúc đẩy tăng trưởng bao trùm, toàn diện và phát triển bền vững, nhất là đối với các động lực tăng trưởng mới.')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Bố không thừa nhận, mẹ thì đi lấy chồng, Cháng Thị Hương quyết thoát lời nguyền',
+'Bo-khong-thua-nhan-me-thi-di-lay-chong-Chang-Thi-Huong-quyet-thoat-loi-nguyen',
+N'Cháng Thị Hương là ứng viên học bổng Tiếp sức đến trường của báo Tuổi Trẻ. Cô đã đi làm thuê từ hè năm cô học lớp 8. Nay Hương đỗ khoa ngoại ngữ Trường đại học Hùng Vương (Phú Thọ) và muốn thoát khỏi lời nguyền nghèo đói.',
+'By tuoitre.vn',
+'7/10/2024',
+'base64-17285223979571493239719.png',
+N'Cháng Thị Hương - cô tân sinh viên khoa ngoại ngữ Trường đại học Hùng Vương (Phú Thọ) - tranh thủ vài ngày nghỉ để lên nương nhổ sắn giúp cậu và bà ngoại. Quê cô là một thung lũng bốn bề núi cao ở xã Thuận Hòa, huyện Vị Xuyên (Hà Giang).',
+'',
+8
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(36, N'Hương có bố, nhưng lại là đứa trẻ không cha. Bố cô là người cùng làng, nhưng vì gia đình bố không nhận, mẹ cô chấp nhận nuôi cô một mình. Cô đi chăn trâu, làm đồng vẫn gặp ông nhưng chẳng dám nhận.'),
+(36, N'Người Lũng Khỏe vẫn kể lại, bố mẹ cô từng có một mối tình thời trai trẻ đẹp như trong mơ. Hai người đi học cùng nhau, đi rừng cùng nhau rồi hẹn ước với nhau…'),
+(36, N'Thế nhưng nhà chàng trai không cho cưới, một phần vì nhà mẹ cô nghèo, phần khác trong nhà họ không muốn có con dâu thấp bé, gầy gò. Ở Lũng Khỏe này, người ta quan niệm muốn thoát khỏi cái nghèo thì người phụ nữ phải khỏe, phải đi rừng giỏi, phải vác được nhiều củ sắn, lấy được vác củi to…'),
+(36, N'Quan niệm ấy như lời nguyền ở cái lũng bốn phía núi cao, sáng nắng muộn, chiều tối sớm này. Trong lũng chủ yếu là người Dao, sống dựa vào mảnh nương dốc đến nỗi con trâu đứng không vững. Muốn có nhiều cái ăn, con người phải khỏe, phải làm nương, vác nặng. Người lớn dựng vợ gả chồng cho con cũng phải chọn sức khỏe như người ta chọn trâu về cày ruộng.'),
+(36, N'Hương sinh ra không được mang họ bố từ ấy. Lúc mới được 2 tuổi, mẹ cô quyết tâm đi học để thoát khỏi cái nghèo trong cái lũng bốn mặt là núi cao giữa làng là suối dữ này. Hương sống với bà. Người cậu coi cháu như con, làm đủ mọi việc để nuôi gia đình.'),
+(36, N'Năm Hương học lớp 10, ông Thìm bàn với vợ phải phát cái nương sắn bỏ hoang mấy năm, trồng lại sắn để mấy năm sau có thêm vài đồng cho con, cháu đi học. “Ở đây không chăn nuôi được con gì. Có nương sắn tôi phải trồng từ ngày nó (Cháng Thị Hương - PV) học lớp 10 để bây giờ mới có thêm tiền cho cháu" - ông Thìm nhấc cái cổ áo đã ướt đẫm từ bao giờ.'),
+(36, N'Ngày Hương trở lại trường, cậu Thìm chở xe máy ra tận bến, dúi thêm vào tay cháu mấy trăm nghìn để mua vé xe. “Thiếu cái gì thì cứ gọi điện về nhé!” - ông Thìm dặn dò khi cô bé mắt đã long lanh dưới nắng. Hương biết gọi điện về cậu lại đi nương vài ngày để nhổ sắn, hoặc lại bán thêm con lợn đang lớn trong chuồng.'),
+(36, N'“Nó là đứa đầu tiên ở cái lũng này học giỏi, đỗ đại học. Có phải chịu đói thì gia đình cũng cố gắng cho cháu học hành. Nó không có bố nhưng gia đình lại rất tự hào vì cháu" - ông Cháng Văn Thìm chia sẻ.')
+
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N 'Thiêng liêng, tự hào Hà Nội - Bản hùng ca phố',
+'thieng-lieng-tu-hao-ha-noi-ban-hung-ca-pho',
+N'Tối 10-10, chương trình chính luận nghệ thuật đặc biệt với chủ đề “Hà Nội - Bản hùng ca phố” kỷ niệm 70 năm Ngày Giải phóng Thủ đô (10/10/1954 – 10/10/2024) đã diễn ra đầy thiêng liêng, tự hào và lãng mạn tại Di sản văn hóa thế giới Hoàng thành Thăng Long.',
+'By hanoimoi.vn',
+'7/10/2024',
+'chuong-trinh-dien-ra-tai-hoang-thanh-thang-long.png',
+N'Đến dự chương trình, về phía Trung ương có Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Trưởng ban Tuyên giáo Trung ương Nguyễn Trọng Nghĩa; các đồng chí Ủy viên Trung ương Đảng: Phó Chủ tịch nước Võ Thị Ánh Xuân, Phó Chủ tịch Quốc hội Nguyễn Thị Thanh; các đồng chí Ủy viên Trung ương Đảng, Ủy viên dự khuyết Trung ương Đảng; lãnh đạo các ban, bộ, ngành, đoàn thể Trung ương.',
+'',
+9
+);
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Tà Xùa vào mùa trekking và săn mây muộn',
+'ta-xua-vao-mua-trekking-va-san-may-muon',
+N'Giữa tháng 10, các tour săn mây và trekking đỉnh Tà Xùa lác đác có khách, trong khi mọi năm hoạt động du lịch ở đây sôi động từ tháng 9.',
+'By vnexpress.vn',
+'7/10/2024',
+'Ta-Xua-9844-1728558869.png',
+N'Tà Xùa, một trong những đỉnh núi cao nhất Việt Nam (2.800 m), thuộc huyện Bắc Yên, Sơn La, giáp với huyện Trạm Tấu, Yên Bái và cách Hà Nội khoảng 240 km. Tà Xùa có khí hậu mát mẻ quanh năm, nổi tiếng là điểm săn mây đẹp từ tháng 9 đến tháng 4 hằng năm, thu hút đông khách. Năm nay, mùa du lịch Tà Xùa khởi động muộn vì ảnh hưởng bởi bão lũ và sạt lở. Đầu tháng 10, một số homestay mới bắt đầu đón khách, các tour trekking chưa nhiều người đăng ký.',
+'',
+10
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(39, N'Trên diễn đàn du lịch Tà Xùa có gần 675.000 thành viên, chủ các homestay, nhà nghỉ tại đây cho hay vẫn còn nhiều phòng trống dịp cuối tuần trong tháng 10, bao gồm cả phòng riêng 2-4 người và phòng cộng đồng cho 10 đến 30 người.'),
+(39, N'Đại diện của một trong những khu homestay rộng và tầm nhìn đẹp có thể săn mây ngay trong khuôn viên cho biết vẫn còn phòng vào các cuối tuần tháng 10 và 11. Kim Oanh, một thành viên của diễn đàn, quyết định đi Tà Xùa cuối tuần này, nói đã đặt được phòng dễ dàng chỉ trước chuyến đi vài ngày.'),
+(39, N'Điều kiện thời tiết và đi lại là một trong những băn khoăn của du khách. Oanh cho hay dù đã quyết định lên đường, cô vẫn thận trọng tham khảo các thành viên, người địa phương và được biết hiện không có khó khăn trong đi lại.'),
+(39, N'Ông Khang A Chua, Phó chủ tịch huyện Trạm Tấu, Yên Bái, cho hay mùa du lịch Tà Xùa thường bắt đầu từ khoảng tháng 9. Năm nay, do ảnh hưởng bởi thời tiết nên khách lên muộn hơn.'),
+(39, N'Ngoài Tà Xùa, huyện Trạm Tấu còn là điểm xuất phát của tuyến trekking đỉnh Tà Chì Nhù. Sau đợt mưa lớn, nước suối dâng vào tuần cuối tháng 9, Tà Chì Nhù cũng đã hoạt động bình thường trở lại.'),
+(39, N'Địa phương cho biết vẫn sẽ tiếp tục theo dõi tình hình thời tiết và giao thông để có các cảnh báo kịp thời. Đại diện huyện Trạm Tấu cho hay nếu thời tiết vẫn duy trì như hiện nay, du khách hoàn toàn có thể an tâm đi du lịch.'),
+(39, N'Mùa đẹp nhất tại đây là từ cuối tháng 9 đến đầu tháng 4 hằng năm. Nếu trekking, du khách phải đi từ hướng huyện Trạm Tấu, Yên Bái, còn nếu săn mây sẽ đi từ hướng huyện Bắc Yên, Sơn La. Đường đi từ Sơn La, xe ôtô gầm cao có thể lên tới đỉnh. Cách đỉnh khoảng 12 km, có nhiều đường cua, du khách nên di chuyển thận trọng.')
+
+insert into Categories (CategoryName,urlCategory) values (N'tài liệu','tai-lieu')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Học tập và làm theo tư tưởng Hồ Chí Minh đáp ứng yêu cầu nhiệm vụ cách mạng trong tình hình mới',
+'hoc-tap-va-lam-theo-tu-tuong-ho-chi-minh-dap-ung-yeu-cau-nhiem-vu-cach-mang-trong-tinh-hinh-moi',
+N'Chủ tịch Hồ Chí Minh là một trong những nhà tư tưởng, một lãnh tụ cách mạng. Tư tưởng đạo đức Hồ Chí Minh rất sâu sắc, phong phú cả về lý luận và thực tiễn, đã trở thành một bộ phận vô giá của văn hóa dân tộc và nhân loại, một sức mạnh to lớn làm nên mọi thắng lợi của cách mạng Việt Nam.',
+'By qdnd.vn',
+'7/10/2024',
+'01 5.png',
+N'Chủ tịch Hồ Chí Minh đã khẳng định, đạo đức là nguồn nuôi dưỡng và phát triển con người, như gốc của cây, ngọn nguồn của sông suối. Người nói: "Cũng như sông thì có nguồn mới có nước, không có nguồn thì sông cạn. Cây phải có gốc không có gốc thì cây héo. Người cách mạng phải có đạo đức không có đạo đức thì dù tài giỏi mấy cũng không lãnh đạo được nhân dân”(1). ',
+'',
+11
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(40, N'Nhiệm vụ bảo vệ Tổ quốc trong tình hình mới hiện nay theo tư tưởng Hồ Chí Minh việc đầu tiên là chỉnh đốn, đổi mới tư duy lãnh đạo của Đảng, bám sát cơ sở, thực tiễn yêu cầu cách mạng đặt ra, đây là tư tưởng nhất quán xuyên suốt trong quá trình xây dựng đội ngũ cán bộ của Đảng. Việc chỉnh đốn, đổi mới của Đảng là khôi phục đạo đức cách mạng, giáo dục, bồi dưỡng phẩm chất, năng lực cho cán bộ, đội ngũ đảng viên, khôi phục uy tín chính trị của Đảng đối với nhân dân, vào thời điểm cách mạng gặp khó khăn cần phải bình tĩnh, sáng suốt để Đảng, đảng viên không rơi vào bi quan, dao động, rụt rè, lùi bước; khi cách mạng trên đà thắng lợi phải chỉnh đốn, đổi mới để ngăn ngừa bệnh kiêu ngạo, thoả mãn, chủ quan; khi cách mạng chuyển giai đoạn, cũng phải chỉnh đốn, đổi mới để Đảng, đội ngũ cán bộ đảng viên có đủ trình độ năng lực, khả năng tư duy sức lãnh đạo trước sự phát triển của thực tiễn cách mạng Việt nam.'),
+(40, N'Trong tình hình hiện nay, mỗi cấp ủy, cán bộ cần nhìn nhận, suy ngẫm hành động trên các giá trị theo tư tưởng, đạo đức, phong cách Hồ Chí Minh như sau:'),
+(40, N'Một là: Trung với nước, hiếu với dân, suốt đời phấn đấu hy sinh vì độc lập tự do của Tổ quốc, vì chủ nghĩa xã hội, nhiệm vụ nào cũng hoàn thành, khó khăn nào cũng vượt qua, kẻ thù nào cũng đánh thắng. “Nhân, Trí, Dũng, Trung, Hiếu, Tín, Nghĩa” là thang bậc đầu tiên của đạo đức con người. Chủ tịch Hồ Chí Minh rất coi trọng phẩm chất đạo đức của cán bộ, chuẩn mực giá trị đạo đức cách mạng. Trong bối cảnh hiện nay, trước những tác động nhiều chiều của nền kinh tế thị trường, sự chống phá của các thế lực thù địch, hơn lúc nào hết, đòi hỏi mỗi cán bộ, chiến sĩ nêu cao tinh thần cách mạng, tích cực đấu tranh ngăn chặn, đẩy lùi tiêu cực, phòng, chống tự diễn biến tự chuyển hóa, đấu tranh làm thất bại mọi âm mưu chống phá của kẻ địch.'),
+(40, N'Hai là: Cần, Kiệm, Liêm, Chính, Chí công vô tư. Đảng cách mệnh, Đảng cầm quyền, cán bộ, đảng viên, nhất là những cán bộ giữ cương vị lãnh đạo càng phải ra sức tu dưỡng, rèn luyện những phẩm chất đạo đức này. Không tự cao, tự đại, tự kiêu, tự ti, tự phụ, tự mãn, không nịnh trên, nạt dưới, lừa lọc, dối trá, giả mạo,... luôn luôn đặt việc công, lợi ích của Nhà nước của tập thể, của nhân dân lên trên, lên trước việc tư, quyền lợi của bản thân. '),
+(40, N'Ba là: Yêu thương con người, luôn tin tưởng ở quần chúng và sống có tình, có nghĩa, có trước có sau. Chủ tịch Hồ Chí Minh căn dặn: Cán bộ, đảng viên học và hiểu Chủ nghĩa Mác-Lênin là để “Sống với nhau có tình, có nghĩa”, “nếu thuộc bao nhiêu sách mà sống không có tình, có nghĩa thì sao gọi là hiểu Chủ nghĩa Mác-Lênin được”. Người cách mạng phải có tình cảm đạo đức cách mạng mới làm được cách mạng, phải biết yêu thương gia đình, yêu thương đồng bào, đồng chí, đồng đội, đồng nghiệp thì mới biết, mới dám chấp nhận mọi hy sinh cho đồng chí, đồng bào, cho cách mạng, cho dân tộc. Đạo đức Hồ Chí Minh không những chỉ có lòng nhân ái bao dung vị tha, độ lượng mà còn có cả đức tin tuyệt đối ở nhân dân, đề cao vai trò, sức mạnh vô địch của nhân dân, kính trọng nhân dân, luôn luôn vì dân, dựa vào dân làm cách mạng, “Dễ trăm lần không dân cũng chịu, Khó vạn lần dân liệu cũng xong”. '),
+(40, N'Bốn là: Có tinh thần quốc tế trong sáng, hướng vào mục tiêu hòa bình, dân chủ, tiến bộ xã hội. Đó là, tinh thần đoàn kết quốc tế vô sản mà Chủ tịch Hồ Chí Minh đã nêu lên bằng mệnh đề "Bốn phương vô sản đều là anh em"; là tinh thần đoàn kết với các dân tộc bị áp bức, với nhân dân lao động các nước. Theo Chủ tịch Hồ Chí Minh, chủ nghĩa quốc tế vô sản gắn liền với chủ nghĩa yêu nước, hơn nữa phải là chủ nghĩa yêu nước chân chính và chủ nghĩa quốc tế vô sản trong sáng, cùng chung vai sát cánh với giai cấp vô sản toàn thể thế giới, cùng toàn thể nhân dân lao động, yêu chuộng hòa bình, đấu tranh vì hòa bình, độc lập dân tộc và chủ nghĩa xã hội.'),
+(40, N'Trong bối cảnh hội nhập, toàn cầu hóa, quốc tế hóa, trước thực trạng đạo đức đội ngũ cán bộ, đảng viên và những vấn đề đặt ra nhằm tiếp tục nâng cao đạo đức cách mạng cho cán bộ, đảng viên để đủ sức hoàn thành nhiệm vụ cách mạng mà Đảng và nhân dân giao phó, thì việc đẩy mạnh nghiên cứu, tuyên truyền, giáo dục tư tưởng Hồ Chí Minh, học tập và làm theo tấm gương đạo đức Hồ Chí Minh là vô cùng cần thiết, là một trong những biện pháp quan trọng hàng đầu để mọi cán bộ, đảng viên và tổ chức Đảng tự giác liên hệ, kiểm điểm, sửa chữa, khắc phục tình trạng suy thoái về đạo đức, lối sống, giữ vững niềm tin của nhân dân đối với Đảng, nâng cao sức chiến đấu và năng lực lãnh đạo của Đảng, xây dựng Đảng trong sạch, vững mạnh, thực hiện thắng lợi hai nhiệm vụ chiến lược xây dựng và bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa của chúng ta. (2)')
+
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Chuyên đề: “Học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh gắn với việc thực hiện nhiệm vụ công tác của Văn phòng Sở”.',
+'chuyen-de-hoc-tap-va-lam-theo-tu-tuong-dao-duc-phong-cach-ho-chi-minh-gan-voi-viec-thuc-hien-nhiem-vu-cong-tac-cua-van-phong-so',
+N'Tư tưởng, đạo đức, phong cách cao đẹp của Chủ tịch Hồ Chí Minh đã trở thành ánh sáng diệu kì chiếu rọi và thức tỉnh từng góc khuất tâm hồn về tấm gương hi sinh cao cả của Bác.',
+'By binhdinh.gov.vn',
+'7/10/2024',
+'8bb2a607285ff901a04e.png',
+'',
+'',
+11
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(41, N'Chủ tịch Hồ Chí Minh đã để lại cho Đảng ta, nhân dân ta di sản vô cùng quý giá. Đó là thời đại Hồ Chí Minh; là tư tưởng, đạo đức, phong cách Hồ Chí Minh. “Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ tịch, người anh hùng dân tộc vĩ đại, và chính Người đã làm rạng rỡ dân tộc ta, nhân dân ta và non sông đất nước ta”. Cuộc đời và sự nghiệp cách mạng vĩ đại của Người mãi là biểu tượng cách mạng, ngọn hải đăng dẫn đường cho sự nghiệp cách mạng của dân tộc, mãi là tấm gương sáng ngời cho lớp lớp các thế hệ người Việt Nam tiếp nối, noi theo. Không ngừng học tập, rèn luyện theo Người đã, đang và luôn là tiêu chí, thước đo, phương châm hành động và biện pháp công tác của các cán bộ, đảng viên, được coi là động lực, cội nguồn sức mạnh để toàn Đảng nỗ lực vượt qua các khó khăn, thách thức, đáp ứng yêu cầu cách mạng trong giai đoạn mới'),
+(41, N'Tư tưởng Hồ Chí Minh là một hệ thống các quan điểm, nhận thức, tư tưởng chỉ đạo rất cơ bản của Chủ tịch Hồ Chí Minh về cách mạng và con đường đi lên của cách mạng Việt Nam trong thời đại ngày nay. Đó là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể của Việt Nam, kế thừa và phát triển các giá trị truyền thống tốt đẹp của dân tộc, tiếp thu tinh hoa văn hoá của nhân loại. Người nhiều lần khẳng định: "Nước Việt Nam là một, Dân tộc Việt Nam là một, sông có thể cạn, núi có thể mòn, song chân lý đó không bao giờ thay đổi". "Thà hi sinh tất cả chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ"; "Không có gì quý hơn độc lập, tự do"; "Dù có phải đốt cháy cả dãy Trường Sơn cũng phải kiên quyết giành cho được độc lập". "Tôi chỉ có một ham muốn, ham muốn tột bậc là làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, đồng bào ai cũng có cơm ăn, áo mặc, ai cũng được học hành, nước ta có vị trí xứng đáng trên trường quốc tế". "Nước độc lập mà Dân không hưởng hạnh phúc, tự do, thì độc lập cũng chẳng có nghĩa lý gì".'),
+(41, N'Vì vậy, độc lập phải gắn liền với chủ nghĩa xã hội; giải phóng dân tộc phải gắn liền với giải phóng giai cấp, giải phóng xã hội, giải phóng con người, tức là phải tiến hành cách mạng xã hội chủ nghĩa. Non sông Việt Nam có trở nên tươi đẹp hay không, Dân tộc Việt Nam có vẻ vang sánh vai với các cường quốc năm châu được hay không, điều quan trọng là phải phát huy được sức mạnh đại đoàn kết của toàn dân tộc, tập hợp được mọi lực lượng, dân tộc, tôn giáo, mọi người dân Việt Nam yêu nước. Theo Người, muốn cứu nước và giải phóng dân tộc, không có con đường nào khác con đường cách mạng vô sản: "Bây giờ học thuyết nhiều, chủ nghĩa nhiều, nhưng chủ nghĩa chân chính nhất, cách mệnh nhất là chủ nghĩa Lênin, chủ nghĩa Mác - Lênin". Người khẳng định: Cách mạng là sự nghiệp của nhân dân, do nhân dân và vì nhân dân dưới sự lãnh đạo đúng đắn của một đảng cách mạng chân chính. Đảng có mạnh thì Dân tộc mới mạnh, vì Đảng là đội tiên phong, là người lãnh đạo của giai cấp công nhân, nhân dân lao động và của toàn dân tộc.'),
+(41, N'Đạo đức Hồ Chí Minh là đạo đức cách mạng, là những phẩm chất cao quý của một người cách mạng. Đó là: Cần, kiệm, liêm, chính, chí công vô tư. Cần: Là cần cù, chăm chỉ, tận tuỵ, hết lòng hết sức vì công việc chung, vì nước, vì dân. Kiệm: Là tiết kiệm, không xa hoa, lãng phí, nhất là đối với của công. Liêm: Là thanh liêm, giữ liêm sỉ, danh dự, trong sạch, trong sáng. Chính: Là chính trực, ngay thẳng, khẳng khái, không quỵ luỵ, cúi luồn, giữ sĩ khí của một người quân tử, chính khách. Chí công vô tư: Là làm việc vì sự nghiệp chung, đặt lợi ích công lên trên hết, trước hết; không tư lợi, vụ lợi, không vì lợi ích riêng. Chủ tịch Hồ Chí Minh kiên quyết đấu tranh chống chủ nghĩa cá nhân, đặc biệt quan tâm đến việc giáo dục, rèn luyện đạo đức cách mạng. Người thường nói: "Cũng như sông thì có nguồn mới có nước, không có nguồn thì sông cạn. Cây phải có gốc, không có gốc thì cây héo. Người cách mạng phải có đạo đức, không có đạo đức thì dù tài giỏi mấy cũng không lãnh đạo được nhân dân".'),
+(41, N'Phong cách Hồ Chí Minh là lối sống, tác phong khiêm tốn, giản dị, cầu thị, gần dân, trọng dân, tin dân, học dân, làm việc gì cũng vì lợi ích của nhân dân; là đầy tớ của dân chứ không phải "làm quan nhân dân", không được lên mặt "làm quan cách mạng". Theo Người, mỗi cán bộ, đảng viên phải tự giác học tập, ra sức tu dưỡng, rèn luyện để không ngừng nâng cao nhận thức, trình độ, trở thành những con người có văn hoá, có liêm sỉ, "tận trung với Đảng, tận hiếu với Dân, nhiệm vụ nào cũng hoàn thành, khó khăn nào cũng vượt qua, kẻ thù nào cũng đánh thắng".')
+
+update Information 
+set Description = N'Tổng mức đầu tư đường sắt tốc độ cao Bắc Nam đã được Bộ Giao thông Vận tải xác định sơ bộ 67,34 tỷ USD. Giá vé dự kiến được chia ba mức phù hợp với khả năng chi trả người dân, nhu cầu và mức độ tiện nghi khác nhau. Trong đó, mỗi km vé hạng nhất dự kiến là 0,18 USD (khoang VIP), hạng hai 0,074 USD và hạng ba là 0,044 USD. Như vậy, tính trên chặng Hà Nội - TP HCM, vé hạng nhất khoảng 6,9 triệu; hạng hai là 2,9 triệu và hạng ba là 1,7 triệu đồng.'
+where id= 11;
+
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Cần thủ sống sót sau 32 giờ trôi dạt trên biển',
+'can-thu-song-sot-sau-32-gio-troi-dat-tren-bien',
+N'Trưa 15/10, Bệnh viện Đà Nẵng cho biết bệnh nhân Đặng Huy Hùng, 31 tuổi, đã qua cơn nguy kịch. Anh được chuyển từ Khoa Cấp cứu sang Khoa Hồi sức tích cực chống độc để tiếp tục theo dõi sức khỏe.',
+'By VnExpress',
+'7/10/2024',
+'f95ac26efb8e42d01b9f-4182-1728968408.png',
+N'Anh Hùng rời nhà đi câu cá tại bờ kè đá dưới chân cầu Thuận Phước, quận Hải Châu từ 19h ngày 13/10. Đến khoảng 21h, vợ anh là chị Diệp gọi điện cho chồng nhưng mất liên lạc, ra bờ kè tìm không thấy. "Tôi cứ nghĩ anh ấy đi câu cùng bạn ở nơi mất sóng hoặc điện thoại hết pin nên mất liên lạc", chị Diệp kể.',
+'',
+4
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(42, N'Đến 4h hôm sau vẫn không thấy chồng về, chị Diệp tiếp tục đi tìm thì thấy xe máy anh Hùng bỏ lại trên bờ kè nên báo công an. Trong đêm mưa, lực lượng chức năng, bạn bè trong hội câu cá và Đội thiện nguyện cứu hộ SOS Đà Nẵng đã đi bộ dọc bờ kè đá và dùng xuồng chạy ra khu vực biển cửa sông Hàn tìm kiếm nhưng không có kết quả.'),
+(42, N'Đến 5h ngày 15/10, một người dân đi tập thể dục dưới bờ biển Nguyễn Tất Thành giao với đường Tôn Thất Đạm, quận Thanh Khê, phát hiện anh Hùng trôi dạt. Ban đầu, mọi người nghĩ anh đã chết nên gọi điện cho gia đình đến nhận dạng. Tuy nhiên, thấy ngón tay út của anh nhúc nhích nên người dân đã hô hấp nhân tạo, đốt lửa sưởi ấm và đưa anh đến Bệnh viện Đà Nẵng.'),
+(42, N'"Anh được tìm thấy trong tình trạng mê man, sau đó dần tỉnh lại, hiện đã có thể nói chuyện và kể lại sự việc", chị Diệp cho hay.'),
+(42, N'Theo đó khoảng 21h ngày 13/10, cần câu mắc vào tảng đá dưới bờ kè nên anh Hùng xuống gỡ. Không may, anh trượt chân và bị nước cuốn trôi, rơi vào trạng thái hôn mê. Theo chị Diệp, có thể khi ngã anh Hùng vẫn đeo balo mang theo từ nhà nên đã "sống sót thần kỳ" sau một ngày hai đêm ngâm dưới nước lạnh. Khi được tìm thấy cách vị trí câu cá khoảng 4 km, hai tay anh vẫn ôm chặt balo.'),
+(42, N'Anh Hùng quê Bắc Ninh, hiện sống ở quận Sơn Trà, thường xuyên đi câu cá cùng bạn bè. Những lần trước, anh đi câu vào buổi chiều. Chủ nhật vừa qua, anh lần đầu đi câu ban đêm và gặp nạn.')
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Lãnh đạo Triều Tiên họp về kế hoạch quân sự giữa căng thẳng với Hàn Quốc',
+'lanh-dao-trieu-tien-hop-ve-ke-hoach-quan-su-giua-cang-thang-voi-han-quoc',
+N'Ông Kim Jong-un họp với các quan chức an ninh quốc gia hàng đầu Triều Tiên, đưa ra kế hoạch "hành động quân sự tức thời" giữa lúc căng thẳng với Hàn Quốc gia tăng.',
+'By VnExpress',
+'7/10/2024',
+'PYH2024101500450004200-P4-7308-1728949139.png',
+N'Cuộc họp giữa lãnh đạo Triều Tiên Kim Jong-un cùng các quan chức an ninh cấp cao, như Tổng tham mưu trưởng quân đội Ri Yong-gil, lãnh đạo Tổng cục Trinh sát Ri Chang-ho, diễn ra ngày 14/10 ở Bình Nhưỡng, hãng thông tấn trung ương Triều Tiên KCNA đưa tin hôm nay.',
+'',
+3
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(43, N'"Ông Kim Jong-un đưa ra kế hoạch hành động quân sự tức thời và đề xuất các nhiệm vụ quan trọng cần thực hiện trong chiến dịch răn đe chiến tranh, thực hiện quyền tự vệ để bảo vệ chủ quyền quốc gia", hãng thông tấn cho biết thêm, nhưng không nêu chi tiết.'),
+(43, N'Cuộc họp diễn ra sau khi Triều Tiên ngày 11/10 nói thiết bị bay không người lái (drone) của Hàn Quốc xâm nhập Bình Nhưỡng để thả truyền đơn, gọi đây là hành động khiêu khích về quân sự, chính trị.'),
+(43, N'Theo KCNA, ông Kim Jong-un cùng các quan chức dự họp đã nghe báo cáo về "sự khiêu khích nghiêm trọng của kẻ thù". Lãnh đạo Triều Tiên "bày tỏ lập trường chính trị và quân sự cứng rắn".'),
+(43, N'Căng thẳng giữa hai miền Triều Tiên leo thang trong những tháng gần đây, khi lãnh đạo Triều Tiên Kim Jong-un đẩy mạnh thử vũ khí và đưa ra các thông điệp đe dọa, còn Hàn Quốc đáp trả bằng cách tăng cường tập trận chung với đồng minh Mỹ.'),
+(43, N'Kim Yo-jong, em gái lãnh đạo Kim Jong-un, ngày 12/10 cảnh báo Triều Tiên sẽ đáp trả mạnh tay nếu Bình Nhưỡng tiếp tục phát hiện drone Hàn Quốc. Ngày 14/10, bà cáo buộc quân đội Hàn Quốc đứng sau vụ drone xâm nhập Bình Nhưỡng, nhưng không đưa ra bằng chứng.'),
+(43, N'Bộ Quốc phòng Hàn Quốc ngày 14/10 tuyên bố chính quyền Triều Tiên sẽ đối mặt "kết thúc" nếu gây tổn hại đến người dân nước này. Hội đồng Tham mưu trưởng Liên quân Hàn Quốc (JCS) cho biết họ không thể xác thực tuyên bố của Triều Tiên về drone.'),
+(43, N'Về mặt kỹ thuật, Triều Tiên và Hàn Quốc vẫn trong tình trạng chiến tranh, sau khi cuộc chiến 1950-1953 kết thúc bằng hiệp định đình chiến, không phải hiệp ước hòa bình. Bộ Tư lệnh Liên Hợp Quốc, giám sát hiệp định đình chiến, cho biết họ đã nắm thông tin liên quan cáo buộc về drone và đang điều tra sự việc.')
+
+update Information 
+set Description = N'Hình ảnh đoàn quân tiến về Hà Nội trong thời khắc lịch sử ngày 10/10/1954 đã được tái hiện tại "Ngày hội văn hóa vì hòa bình," kỷ niệm 70 năm Ngày Giải phóng Thủ đô.'
+where id= 9;
+
+update Information 
+set Description = N'(NLĐO) - Theo truyền thông địa phương, 2 quả rốc-két từ phía Hezbollah đã bắn trúng TP Haifa phía Bắc Israel và 5 quả khác trúng TP Tiberias cách đó 65 km.'
+where id= 8;
+
+update Information 
+set Description = N'Tối ngày 11/10, Thủ tướng Phạm Minh Chính và Đoàn đại biểu cấp cao Việt Nam đã về tới Hà Nội, kết thúc tốt đẹp chuyến công tác tham dự Hội nghị Cấp cao ASEAN lần thứ 44, 45 và các Hội nghị Cấp cao liên quan tại Lào, từ ngày 8 đến 11/10/2024, theo lời mời của Thủ tướng Cộng hòa Dân chủ Nhân dân Lào, Chủ tịch ASEAN 2024 Sonexay Siphandone.'
+where id= 35;
+
+update Information 
+set Description = N'Hơn 10 ngày sau khi bão Yagi đổ bộ nước ta, rất nhiều chuyện đã xảy ra, những mất mát, đau thương mà có lẽ phải rất, rất lâu nữa mới có thể nguôi ngoai, hoặc cũng có thể là không bao giờ. Những tưởng chỉ có trong chiến tranh mới có những nỗi đau xé lòng như vậy, nhưng không, hàng trăm người dân trong 1 ngôi làng trong tích tắc đã bị nhấn chìm sau tiếng nổ vang trời.'
+where id= 6;
+
+insert into Information (Title, linkTitle, Content, Authur, Create_At, Image, Description, urlVideo, Category_Id)
+values 
+(N'Nga "rắn giọng" trước động thái tập trận hạt nhân mới của NATO',
+'nga-ran-giong-truoc-dong-thai-tap-tran-hat-nhan-moi-cua-nato',
+N'Người phát ngôn Điện Kremlin Dmitry Peskov ngày 15/10 cảnh báo cuộc tập trận hạt nhân Steadfast Noon của NATO sẽ chỉ làm leo thang căng thẳng, trong bối cảnh giao tranh vẫn đang tiếp diễn ở Ukraine.',
+'By 24h.com.vn',
+'7/10/2024',
+'1728967702-9-2-width800height509.png',
+N'Phát biểu trước các phóng viên, ông Dmitry Peskov cho biết: "Với bối cảnh cuộc xung đột ở Ukraine đang ở giai đoạn "chiến tranh nóng", những cuộc tập trận như vậy chắc chắn sẽ chỉ dẫn đến căng thẳng leo thang hơn nữa", ông nói.',
+'',
+2
+);
+
+insert into DetailsContent (Detail_Id, Detail_Content) values
+(44, N'Trước những lo ngại từ giới chức NATO về mối đe dọa quân sự từ Nga, người phát ngôn Điện Kremlin nhấn mạnh Nga chưa bao giờ dịch chuyển hạ tầng quân sự hướng về phía tây, "mà thực tế diễn ra theo hướng NATO đưa vũ khí tới gần Nga".'),
+(44, N'"Vì các cường quốc hạt nhân như Mỹ, Anh, Pháp đang tham gia gián tiếp và trực tiếp trong một cuộc chiến chống lại Nga, nếu có đối thoại về kiểm soát hạt nhân, các bên phải chấp nhận đối thoại thêm về các phương diện an ninh khác", người phát ngôn Điện Kremlin lưu ý.'),
+(44, N'NATO trước đó đã tuyên bố rằng cuộc tập trận hạt nhân Steadfast Noon sẽ kéo dài hai tuần, bắt đầu từ 14/10, với sự tham gia của 2.000 binh sỹ từ 13 quốc gia liên minh và 60 máy bay quân sự ở Bắc Âu cùng 8 căn cứ không quân được huy động tham gia.'),
+(44, N'Đặc biệt, nhiều loại máy bay có khả năng mang vũ khí hạt nhân, máy bay ném bom, máy bay chiến đấu hộ tống và máy bay tiếp nhiên liệu, máy bay trinh sát và lực lượng tác chiến điện tử cũng tham gia tập trận.'),
+(44, N'Theo TASS, cuộc tập trận Steadfast Noon là một phần của chương trình nhiệm vụ hạt nhân chung của NATO, trong đó có khả năng sử dụng vũ khí hạt nhân chiến thuật của Mỹ được lắp trên máy bay. Chương trình nhiệm vụ hạt nhân chung của NATO mang tính chất tấn công và không nhằm mục đích trả đũa.'),
+(44, N'Trong khi đó, cùng ngày, phát biểu trong chuyến thăm đầu tiên tới phái bộ Ukraine của NATO tại Wiesbaden, nơi sẽ tiếp quản việc điều phối viện trợ quân sự từ Mỹ, tân Tổng thư ký NATO Mark Rutte tuyên bố NATO sẽ không khuất phục trước các mối đe dọa của Nga và vẫn tiếp tục ủng hộ mạnh mẽ Kiev.'),
+(44, N'"Thông điệp (gửi tới Tổng thống Nga Vladimir Putin ) là chúng tôi sẽ tiếp tục, rằng chúng tôi sẽ làm những gì cần thiết để đảm bảo rằng ông ta sẽ không đạt được mục đích của mình, rằng Ukraine sẽ chiến thắng", ông nói trong một cuộc phỏng vấn với đài phát thanh Đức Hessischer Rundfunk hôm 14/10.')
+
+update Information 
+set Description = N'Du lịch Bà Rịa - Vũng Tàu vào mùa thấp điểm năm 2024. Các doanh nghiệp cố gắng tìm giải pháp để kích cầu, cũng như đầu tư tái tạo, nâng cấp chất lượng dịch vụ.'
+where id= 31;
+
+use ONE_CMS;
 select * from Categories;
 select * from Information;
 select * from DetailsContent;
-
+select * from Information where id = 36;
+select * from DetailsContent where Detail_Id = 36;

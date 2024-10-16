@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+.box_howver {
+    :hover {
+        text-decoration: none;
+        color: #BA1516;
+    }
+}
+
+header {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    background-image: url('../../public/images/anh\ header1.png.png');
+
+    .weeks {
+        width: 250px;
+        height: 40px;
+        background-color: white;
+        border-radius: 7px;
+
+        .date {
+            font-family: "Inter", serif;
+        }
+    }
+
+    .logo {
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        p {
+            margin-top: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+
+    .weather {
+        form {
+            display: none;
+        }
+    }
+}
+
+nav {
+    background-color: aliceblue;
+    border-bottom: 1px solid #C2EAF2;
+    position: relative;
+
+    .sider-bar {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li a {
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        li {
+            list-style: none;
+            overflow: hidden;
+        }
+
+    }
+}
+
+.ord-l {
+    width: 100%;
+    height: auto;
+
+    .title-center {
+        width: 100%;
+        background-color: rgb(77, 175, 192);
+        text-align: center;
+        height: 47px;
+        padding-top: 7px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .the-gioim {
+        width: 100%;
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            img {
+                width: 100%;
+                height: 200px;
+            }
+
+            span {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                line-clamp: 3;
+                -webkit-box-orient: vertical;
+                font-size: 15px;
+            }
+        }
+
+        :first-child {
+            margin-top: 20px;
+        }
+    }
+
+    .van-hoam {
+        width: 100%;
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+
+            img {
+                width: 100%;
+                height: 200px;
+            }
+
+            span {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                line-clamp: 3;
+                -webkit-box-orient: vertical;
+                font-size: 15px;
+            }
+        }
+
+        :first-child {
+            margin-top: 10px;
+        }
+    }
+}
+
+.ord-r {
+    .relate-to-infor {
+        width: 100%;
+        background-color: rgb(77, 175, 192);
+        text-align: center;
+        height: 47px;
+        padding-top: 7px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .detail_category {
+        .du-lichs {
+            width: 100%;
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                img {
+                    width: 100%;
+                    height: 200px;
+                }
+
+                span {
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    font-size: 15px;
+                }
+            }
+
+            :first-child {
+                margin-top: 10px;
+            }
+        }
+
+        .it {
+            width: 100%;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: black;
+
+                img {
+                    width: 100%;
+                    height: 200px;
+                }
+
+                span {
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    font-size: 15px;
+                }
+            }
+
+            :first-child {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.infor-c {
+    .search {
+        width: 100%;
+        height: 48px;
+        background-color: #BA1516;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 8px;
+        font-size: 20px;
+        color: white;
+    }
+}
+
+.infor-c {
+    .list-search {
+        a {
+            text-decoration: none;
+            color: black;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 16px;
+    border-top: 1px solid;
+
+    .infor-company {
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    a {
+        color: black;
+
+        img {
+            width: 100%;
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

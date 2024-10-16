@@ -35,6 +35,10 @@ header .logo p {
   text-transform: uppercase;
   font-weight: bold;
 }
+header .weather form {
+  display: none;
+}
+
 nav {
   background-color: aliceblue;
   border-bottom: 1px solid #C2EAF2;
